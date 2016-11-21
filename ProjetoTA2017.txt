@@ -7,7 +7,34 @@ Criação do sistema de cadastro do usuario.
 
 ---Computador Notebook----
 Atualização do txt
+Pastas.
+
+0 - index-Views[
+   pasta para os arquivos de includes
+   home, menu, cadastro user, login user
+]
 
 
+1 - app-Users[
+   pasta para arquivos do usuario.
+   Css
+   Js
+   user-Views
+   Php
+   index
+]
+
+2 - Libs[
+   pasta para arquivos de suportes
+   angular(animate, router, angular).js
+   boostrap.css
+   reset.css
+
+]
+
+3 - Config[
+   pasta de configurações
+   servidor e banco de dados, links url
+]
 
 ---Computador Casa----
