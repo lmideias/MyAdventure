@@ -37,4 +37,15 @@ Pastas.
    servidor e banco de dados, links url
 ]
 
+Criação das classes de conexao com o banco de dados.[
+     config.inc.php, conn.class.php
+]
+
+---- Banco de dados  ----
+
+
+
+INSERT INTO `usuario` (`userid`, `celular`, `senha`, `ativo`, `datacad`) VALUES (NULL, '983173530', '12345678', '1', '2016-11-19');
+
+
 ---Computador Casa----

@@ -8,7 +8,11 @@
   <body>
     <div class="box-full">
               <div class="box-center">
-                   <?php include_once './index-Views/menu.php'; ?>
+                   <?php
+                   require('./Inc/Config.inc.php');
+                   $conn = new Conn;
+                    var_dump($conn);
+                   ?>
               </div>
     </div>
   </body>
