@@ -6,7 +6,7 @@ define('PASS','');
 define('DB','advdata');
 
 function __autoload($Class){
-  $cDir = ['Conn'];
+  $cDir = ['Conn','Classes'];
   $iDir = null;
 
   foreach ($cDir as $dirName):

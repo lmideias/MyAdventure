@@ -35,6 +35,19 @@
            $conn = new Conn;
             var_dump($conn);
            ?>
+
+           <hr>
+
+           <?php
+
+           $Dados = ['celular'=>'25216005', 'senha'=>'123456','ativo'=>'1','datacad'=>'2016-11-24'];
+           $Cadastra = new Create;
+           $Cadastra->ExeCreate('usuario',$Dados);
+            var_dump($Cadastra);
+
+           ?>
+
+
          </div>
     </div>
 

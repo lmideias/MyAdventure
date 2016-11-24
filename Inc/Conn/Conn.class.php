@@ -27,7 +27,7 @@ class Conn{
 
       self::$Connect->setAttibute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
       return self::$Connect;
-      
+
     }
 
     public static function getConn(){
