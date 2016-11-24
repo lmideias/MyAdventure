@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Trilhas Adventure</title>
    <link href="./index-Views/Css/index.css" rel="stylesheet" type="text/css"/>
+   <script src="./Inc/Libs/jquery-3.1.1.min.js" type="text/javascript"></script>
   </head>
   <body>
     <div class="box-full">
@@ -15,5 +16,7 @@
                    ?>
               </div>
     </div>
+
+     <script src="./Js/index.js" type="text/javascript"></script>
   </body>
 </html>

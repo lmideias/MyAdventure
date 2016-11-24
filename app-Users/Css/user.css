@@ -1,0 +1,28 @@
+
+
+.container-a-full{
+  width: 460px;
+  height: auto;
+  display: block;
+  background-color: #004D40;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding: 2px;
+}
+
+.container-a{
+  width: 400px;
+ height: auto;
+padding: 30px;
+ background-color: #E0F2F1;
+ margin-top: 15px;
+}
+
+.container-b{
+  width: 400px;
+ height: auto;
+padding: 30px;
+ background-color: #C8E6C9;
+ margin-top: 15px;
+}
