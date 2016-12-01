@@ -1,6 +1,9 @@
 <?php
 
-class Create extends Conn{
+
+
+class Create extends Conn
+{
 
   private $Tabela;
   private $Dados;
@@ -15,6 +18,7 @@ class Create extends Conn{
     $this->Tabela = (string) $Tabela;
     $this->Dados = $Dados;
     $this->getSyntax();
+    $this->Execute();
   }
 
   //----------------------
@@ -45,7 +49,7 @@ class Create extends Conn{
 
     } catch (PDOException $e) {
       $this->Result = null;
-      WSErro("Erro ao cadastrar{$e->getMessage()}", $e->getCode());
+      WSErro("Erro ao cadastrar {$e->getMessage()} ", $e->getCode());
     }
 
   }

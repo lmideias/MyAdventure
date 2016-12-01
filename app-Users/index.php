@@ -8,7 +8,7 @@
   </head>
   <body>
     <?php
-    require('../Inc/Config.inc.php');
+
     ?>
     <div class="box-full">
               <div class="box-center">
@@ -32,24 +32,33 @@
          </div>
          <div class="container-b">
            <?php
-           $conn = new Conn;
-            var_dump($conn);
+             //require('../Inc/Config.inc.php');
+           //$conn = new Conn;
+           //$conn->getConn();
+          //  var_dump($conn->getConn());
            ?>
 
            <hr>
-
            <?php
+            require('../Inc/Config.inc.php');
 
-           $Dados = ['celular'=>'25216005', 'senha'=>'123456','ativo'=>'1','datacad'=>'2016-11-24'];
-           $Cadastra = new Create;
-           $Cadastra->ExeCreate('usuario',$Dados);
-            var_dump($Cadastra);
+          $Dados = ['celular'=>'25216005', 'senha'=>'123456'];
+          //$Dados = ['celular'=>'88886005', 'senha'=>'123asd','ativo'=>'0','datacad'=>'2016-11-26'];
+          $Cadastra = new Create;
+          $Cadastra->ExeCreate('usuario', $Dados);
+
+          if($Cadastra->getResult()):
+            echo "Cadastrado com sucesso <hr>";
+          endif;
+
+           var_dump($Cadastra);
 
            ?>
 
 
          </div>
     </div>
+
 
      <script src="" type="text/javascript"></script>
   </body>
