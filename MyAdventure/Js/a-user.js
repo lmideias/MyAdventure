@@ -23,5 +23,15 @@ angular.module('myApp', []);
     });
   };
 
-  carregarUsuario();
+    carregarUsuario();
+  });
+
+//-------------------------------------------------------------------------
+
+  angular.module('myApp').controller('pessoaCtrl', function($scope, $http) {
+
+   $scope.userid = 10;
+   $scope.celular = "983173530";
+
+
 });
