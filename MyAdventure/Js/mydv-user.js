@@ -1,5 +1,8 @@
-var myApp = angular.module("",[]);
-myapp.controller("caduserCtrl", function($scope){
-  $scope.nome = "Olá mundo";
 
-});
+var myApp = angular.module('myApp', []);
+
+  myApp.controller('caduserCtrl', function() {
+
+    $scope.nome = "Olá mundo";
+
+  });
