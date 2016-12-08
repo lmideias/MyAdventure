@@ -38,16 +38,25 @@ div.modal-a{
 }
 
 div.modal-form{
-  width: 400px;
+  width: 450px;
   height: auto;
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 50px;
-  margin-left: calc(50% - 200px);
+  margin-left: calc(50% - 225px);
   background-color: #F1F8E9;
 
 }
 
 
+
+/*======== Campo de Texto ===================*/
+
+.campotexto{
+  text-align: center;
+  color: ccc;
+}
+
+/*-----------------------------------------*/
 
 /*-------- body ----------------------------*/
 div.body-container{

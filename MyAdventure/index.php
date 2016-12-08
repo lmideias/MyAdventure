@@ -6,10 +6,11 @@
      <link href="Css/myadv-mobile.css" rel="stylesheet" type="text/css"/>
       <link href="Css/myadv-desktop.css" rel="stylesheet" type="text/css"/>
       <link href="../Inc/Libs/reset.css" rel="stylesheet" type="text/css"/>
+        <link href="../Inc/Libs/bootstrap.css" rel="stylesheet" type="text/css"/>
 
       <script src="../Inc/Libs/angular-angular.js" type="text/javascript"></script>
       <script src="Js/a-user.js" type="text/javascript"></script>
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
   </head>
@@ -22,20 +23,20 @@
          <h3>Usuario</h3>
          <hr>
          <br>
-             <input type="text" ng-model="usuario.celular" placeholder="Celular"><br><br>
-             <input type="text" ng-model="usuario.senha" placeholder="Senha"><br><br>
-             <button type="button"ng-click="adicionarUsuario(usuario)" ng-disabled="!usuario.celular || !usuario.senha" name="button">Cadastrar</button><br>
+             <input type="text" class="form-control" ng-model="usuario.celular" placeholder="Celular"><br>
+             <input type="text" class="form-control" ng-model="usuario.senha" placeholder="Senha"><br>
+             <button class="btn btn-primary" type="button"ng-click="adicionarUsuario(usuario)" ng-disabled="!usuario.celular || !usuario.senha" name="button">Cadastrar</button><br>
 
              <hr>
              <br><br>
 
-             <table>
+             <table class="table">
                <tr>
                  <th>ID</th>
                  <th>Celular</th>
                  <th>Senha</th>
                  <th>Ativo</th>
-                 <th>Data Cadastro</th>
+                 <th>DataCadastro</th>
                </tr>
                <tr ng-repeat="usuario in usuarios">
 
@@ -63,9 +64,11 @@
                <hr>
                <br>
 
-             <input type="text" ng-model="pessoa.nome" placeholder="Celular"><br><br>
-             <input type="text" ng-model="pessoa.email" placeholder="Senha"><br><br>
-             <button type="button"ng-click="adicionarPessoa(pessoa)" ng-disabled="!pessoa.nome || !pessoa.email" name="button">Cadastrar</button><br>
+             <input type="text" class="form-control" ng-model="pessoa.nome" placeholder="Nome Completo"><br>
+             <input type="text" class="form-control" ng-model="pessoa.email" placeholder="Apelido"><br>
+             <input type="text" class="form-control" ng-model="pessoa.email" placeholder="Data Nascimento"><br>
+             <input type="text" class="form-control" ng-model="pessoa.email" placeholder="Email"><br>
+             <button class="btn btn-primary" type="button"ng-click="adicionarPessoa(pessoa)" ng-disabled="!pessoa.nome || !pessoa.email" name="button">Cadastrar</button><br>
 
              <hr>
              <br><br>
@@ -92,7 +95,10 @@
            <hr>
 <p>Endereço básico, para saber a distancia e o tempo de transporte ate os pontos de encontros das trilhas</p>
             <hr>
-            dados
+            <input type="text" class="form-control" placeholder="Bairro" ><br>
+            <input type="text" class="form-control" placeholder="Cidade" ><br>
+            <input type="text" class="form-control" placeholder="Estado" ><br>
+            <button class="btn btn-primary" type="button" name="button">Salvar</button>
            <hr>
          </div>
 
@@ -101,18 +107,64 @@
            <hr>
 <p>cadastre o nome de cada uma trilha que fez para poder ter o seu nível de experiência em trilhas</p>
             <hr>
-               <label for="">Nome da Trilha que fez</label><br>
-               <input type="text" placeholder="Nome da trilha" ><br><br>
-               <button type="button" name="button">Salvar Trilha</button>
+               <input class="form-control" type="text" placeholder="Nome da trilha" ><br>
+               <button class="btn btn-primary" type="button" name="button">Salvar Trilha</button>
            <hr>
          </div>
 
          <div class="modal-form" >
            <h3>Identificação</h3>
            <hr>
-<p>Estes dados seram usados para preencher o cadastro de seguros das empresas de viagens, em caso de participação</p>
+<p>Estes dados seram usados para preencher o cadastro de seguro das empresas de viagens, em caso de participação</p>
             <hr>
-            dados
+            <input class="form-control" type="text" placeholder="Número" ><br>
+            <input class="form-control" type="text" placeholder="Tipo" ><br>
+            <input class="form-control" type="text" placeholder="Estado" ><br>
+            <input class="form-control" type="text" placeholder="Orgão expedidor" ><br>
+            <button class="btn btn-primary" type="button" name="button">Salvar</button>
+           <hr>
+         </div>
+
+         <div class="modal-form" >
+           <h3>Contatos</h3>
+           <hr>
+<p>Estes dados seram usados para preencher o cadastro de seguro das empresas de viagens, em caso de participação</p>
+            <hr>
+            <input class="form-control" type="text" placeholder="Nome" ><br>
+            <input class="form-control" type="text" placeholder="Telefone" ><br>
+            <input class="form-control" type="text" placeholder="Descrição" ><br>
+            <button class="btn btn-primary" type="button" name="button">Salvar</button>
+           <hr>
+         </div>
+
+         <div class="modal-form" >
+           <h3>Saúde</h3>
+           <hr>
+<p>Estes dados seram usados para preencher o cadastro de seguro das empresas de viagens, em caso de participação</p>
+            <hr>
+            <div class="checkbox">
+   <label>
+     <input type="checkbox"> Check me out
+   </label>
+   <br>
+   <label>
+     <input type="checkbox"> Check me out
+   </label>
+   <br>
+   <label>
+     <input type="checkbox"> Check me out
+   </label>
+   <br>
+   <label>
+     <input type="checkbox"> Check me out
+   </label>
+
+ </div>
+            <input type="text" placeholder="Número" ><br><br>
+            <input type="text" placeholder="Tipo" ><br><br>
+            <input type="text" placeholder="Estado" ><br><br>
+              <input type="text" placeholder="Orgão expedidor" ><br><br>
+            <button type="button" name="button">Salvar</button>
            <hr>
          </div>
 
