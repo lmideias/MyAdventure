@@ -4,17 +4,14 @@
     <meta charset="utf-8">
     <title>MyAdventure</title>
        <link href="Css/main.css" rel="stylesheet" type="text/css"/>
+       <link href="../Inc/Libs/reset.css" rel="stylesheet" type="text/css"/>
+       <link href="../Inc/Libs/bootstrap.css" rel="stylesheet" type="text/css"/>
   </head>
   <body>
 
   <div ng-view>
 
   </div>
-
-
-
-
-
 
               <script src="../Inc/Libs/angular-angular.js" type="text/javascript"></script>
               <script src="../Inc/Libs/angular-router.js" type="text/javascript"></script>
