@@ -1,7 +1,34 @@
-div.box1{
+div.box-login-base{
   width: 400px;
   height: 200px;
   margin-left: auto;
   margin-right: auto;
-  background-color: red;
+}
+
+.login-info{
+  width: 150px;
+  height: 200px;
+ display: block;
+ float: left;
+background-color: #F1F8E9;
+}
+
+.login-form{
+  width: 200px;
+  height: 200px;
+ display: block;
+ float: left;
+ margin-left: 2px;
+   padding: 20px;
+  box-sizing: border-box;
+background-color:#ef6c00;
+}
+
+
+.formLogin{
+  width: 100%;
+  height: 200px;
+  padding: 20px;
+   box-sizing: border-box;
+    background-color: #F1F8E9;
 }

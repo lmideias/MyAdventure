@@ -21,10 +21,25 @@ $cadastrar->bindValue(	":datacad", $datacad);
 //---validar os dados
 $validar=$pdo->prepare("SELECT * FROM usuario WHERE celular=?");
 $validar->execute(array($celular));
+
 if($validar->rowCount()== 0):
   //--cadastra
   $cadastrar->execute();
-    echo "O Número $celular foi cadastrado com Sucesso";
+  $id =  $pdo->lastInsertId();
+
+    //----- SESSION ID, CELULAR, SENHA -----
+
+    session_start();
+    $_SESSION['mycod'] = $id;
+    $_SESSION['celular'] = $celular;
+    $_SESSION['senha'] = $senha;
+
+    $cel =   $_SESSION['celular'];
+    $sen =   $_SESSION['senha'];
+    $cod =   $_SESSION['mycod'];
+
+    echo "O seu MyCod e ".$id." para o número cadastrado  ".$cel, $sen,$cod;
+
 else:
   echo "O Número $celular Já está cadastrado, Digite outro";
 endif;
