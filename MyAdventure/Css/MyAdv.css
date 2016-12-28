@@ -1,0 +1,93 @@
+
+/*==== TRES BASES DO LAYOUT =======*/
+
+.lmi-head{
+  width: 100%;
+  height: 300px;
+background-color: #ff6f00;
+display: block;
+float: left;
+}
+
+/*---- Area de Avisos e propaganda do adventure*/
+
+.lmi-head-prop{
+  width: 100%;
+  height: 30px;
+  border: 1px solid #ffeb3b;
+  margin-top: -35px;
+  display: block;
+  float: left;
+}
+
+.lmi-body{
+  width: 100%;
+  height: 600px;
+
+margin-top: 0px;
+display: block;
+float: left;
+}
+
+.lmi-footer{
+  width: 100%;
+  height: 60px;
+background-color: #ff6f00;
+margin-top: 0px;
+display: block;
+float: left;
+}
+
+/*========= BASES CENTRAIS ===========================*/
+
+.lmi-head-center{
+  width: 1024px;
+  height: 300px;
+background-color: #558b2f;
+margin-left: auto;
+margin-right: auto;
+}
+.lmi-body-center{
+  width: 1024px;
+  height: 600px;
+
+margin-left: auto;
+margin-right: auto;
+}
+.lmi-footer-center{
+  width: 1024px;
+  height: 60px;
+background-color:#558b2f;
+margin-left: auto;
+margin-right: auto;
+}
+
+/*--------- BASES LEFT, CENTER, RIGHT ----------*/
+
+.lmi-body-center-left{
+  width: 200px;
+  height: 600px;
+
+display: block;
+float: left;
+border: 1px solid #ffeb3b;
+}
+
+.lmi-body-center-center{
+  width: 594px;
+  height: 600px;
+
+display: block;
+float: left;
+margin-left: 15px;
+border: 1px solid #ffeb3b;
+}
+
+.lmi-body-center-right{
+  width: 200px;
+  height: 600px;
+border: 1px solid #ffeb3b;
+display: block;
+float: left;
+margin-left: 15px;
+}
