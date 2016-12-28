@@ -3,20 +3,30 @@
   <head>
     <meta charset="utf-8">
     <title>Trilhas Adventure</title>
-   <link href="./index-Views/Css/index.css" rel="stylesheet" type="text/css"/>
-   <script src="./Inc/Libs/jquery-3.1.1.min.js" type="text/javascript"></script>
+   <link href="Css/index.css" rel="stylesheet" type="text/css"/>
+   <link href="Inc/Libs/reset.css" rel="stylesheet" type="text/css"/>
+
   </head>
   <body>
-    <div class="box-full">
-              <div class="box-center">
-                   <?php
-                   require('./Inc/Config.inc.php');
-                   $conn = new Conn;
-                    var_dump($conn);
-                   ?>
+    <div class="box-index-full">
+              <div class="box-index-center">
+                        <h1>Index</h1>
               </div>
     </div>
+    <div class="box-index-body">
+        <div class="boxMenu">
+            <h1>Dicas</h1>
+        </div>
+        <div class="boxMenu">
+            <h1>Livre</h1>
+        </div>
+        <div class="boxMenu">
+            <h1>Trilhas</h1>
+        </div>
+        <div class="boxMenu">
+            <h1>Sobre</h1>
+        </div>
+    </div>
 
-     <script src="./Js/index.js" type="text/javascript"></script>
   </body>
 </html>
