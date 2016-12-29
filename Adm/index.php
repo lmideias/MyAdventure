@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>MyAdventure</title>
-       <link href="Css/MyAdv.css" rel="stylesheet" type="text/css"/>
+       <link href="Css/adm.css" rel="stylesheet" type="text/css"/>
        <link href="../Inc/Libs/reset.css" rel="stylesheet" type="text/css"/>
        <link href="../Inc/Libs/bootstrap.css" rel="stylesheet" type="text/css"/>
   </head>
@@ -30,7 +30,18 @@
 <div class="lmi-body">
   <div class="lmi-body-center">
     <div class="lmi-body-center-left">
-
+        <div class="lmi-adm-left-box-menu">
+             <h5>Usuarios</h5>
+        </div>
+        <div class="lmi-adm-left-box-menu">
+             <h5>Trilhas</h5>
+        </div>
+        <div class="lmi-adm-left-box-menu">
+             <h5>Agenda</h5>
+        </div>
+        <div class="lmi-adm-left-box-menu">
+             <h5>Equipe</h5>
+        </div>
     </div>
     <div class="lmi-body-center-center">
        <div class="container-a">
