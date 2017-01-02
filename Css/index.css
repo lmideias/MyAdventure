@@ -1,6 +1,24 @@
+.box-index-full{
+  width: 100%;
+  height:500px;
+   background-image: url('../Imagens/bg1.png');
+    background-repeat: no-repeat;
+    background-color: #000000;
+	background-position: center center;
+	background-attachment: fixed;
+	 background-size: cover; /*Css padrão*/
+  -webkit-background-size: cover; /*Css safari e chrome*/
+  -moz-background-size: cover; /*Css firefox*/
+  -ms-background-size: cover; /*Css IE não use mer#^@%#*/
+  -o-background-size: cover; /*Css Opera*/
+  margin: 0in;
+}
+
+
+
 /*==============================================================*/
 
-.box-index-full{
+.box-index-full2{
      width: 100%;
      height:500px;
      background: #558B2F;
@@ -30,8 +48,8 @@
 /*==============================================================*/
 
 .boxMenu{
-    width: 200px;
-    height:100px;
+    width: 223px;
+    height:300px;
     margin-top: 20px;
     box-sizing: border-box;
   background-color:#ef6c00;
@@ -39,4 +57,19 @@
     float: left;
   display: block;
   padding: 20px;
+}
+
+/*============ PARTICIPAR ====================================*/
+
+.participar{
+  width: 300px;
+  height:45px;
+        margin-left: auto;
+        margin-right: auto;
+border-radius: 0px 0px 30px 30px;
+  box-sizing: border-box;
+background-color:#ef6c00;
+padding: 10px;
+text-align: center;
+color: #fff;
 }

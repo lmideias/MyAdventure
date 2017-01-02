@@ -10,6 +10,10 @@
   <body>
     <div class="box-index-full">
               <div class="box-index-center">
+
+                <div class="participar">
+                  Participar
+                </div>
                         <h1>Index</h1>
               </div>
     </div>

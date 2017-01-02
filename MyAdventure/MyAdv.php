@@ -45,7 +45,18 @@ Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica 
        </div>
     </div>
     <div class="lmi-body-center-right">
-
+       <div class="prop1">
+         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- PropResponse -->
+<ins class="adsbygoogle"
+   style="display:block"
+   data-ad-client="ca-pub-5664434222802350"
+   data-ad-slot="9520149548"
+   data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+       </div>
     </div>
   </div>
 </div>
