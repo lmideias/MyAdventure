@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Administração</title>
        <link href="Css/adm.css" rel="stylesheet" type="text/css"/>
+       <link href="Css/Form.css" rel="stylesheet" type="text/css"/>
        <link href="../Inc/Libs/reset.css" rel="stylesheet" type="text/css"/>
        <link href="../Inc/Libs/bootstrap.css" rel="stylesheet" type="text/css"/>
   </head>
@@ -39,18 +40,20 @@
         <div class="lmi-btn">
              <h5>Equipe</h5>
         </div>
+        <div class="lmi-btn">
+             <h5>Eventos</h5>
+        </div>
+        <div class="lmi-btn">
+             <h5>Equipe</h5>
+        </div>
+        <div class="lmi-btn">
+             <h5>Equipe</h5>
+        </div>
     </div>
     <div class="lmi-body-center-center">
-       <div class="container-a">
-<h3>Titulo</h3><br>
-          Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
 
-       </div>
-       <div class="container-a">
-<h3>Titulo</h3><br>
-Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+      <?php include("Views/Form.php"); ?>
 
-       </div>
     </div>
     <div class="lmi-body-center-right">
 
