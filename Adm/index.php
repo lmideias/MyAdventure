@@ -2,7 +2,7 @@
 <html >
   <head>
     <meta charset="utf-8">
-    <title>MyAdventure</title>
+    <title>Administração</title>
        <link href="Css/adm.css" rel="stylesheet" type="text/css"/>
        <link href="../Inc/Libs/reset.css" rel="stylesheet" type="text/css"/>
        <link href="../Inc/Libs/bootstrap.css" rel="stylesheet" type="text/css"/>
@@ -13,11 +13,8 @@
   <div class="lmi-head-center">
       <div class="lmi-head-center-user">
          <div class="lmi-head-center-user-myadv">
-            <h4>MyCod 15000</h4>
+            <h4>Administração</h4>
          </div>
-        <div class="lmi-head-center-user-img">
-
-        </div>
       </div>
   </div>
 
@@ -30,16 +27,16 @@
 <div class="lmi-body">
   <div class="lmi-body-center">
     <div class="lmi-body-center-left">
-        <div class="lmi-adm-left-box-menu">
+        <div class="lmi-btn">
              <h5>Usuarios</h5>
         </div>
-        <div class="lmi-adm-left-box-menu">
+        <div class="lmi-btn">
              <h5>Trilhas</h5>
         </div>
-        <div class="lmi-adm-left-box-menu">
+        <div class="lmi-btn">
              <h5>Agenda</h5>
         </div>
-        <div class="lmi-adm-left-box-menu">
+        <div class="lmi-btn">
              <h5>Equipe</h5>
         </div>
     </div>
