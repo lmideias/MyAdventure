@@ -1,3 +1,28 @@
+<?php
+
+session_start();
+$mycod =  $_SESSION['mycod'];
+
+if(!empty($mycod)){
+//echo "Logado  ".$mycod;
+}else{
+    header('Location: /MyAdventure/ViewsForms/login.php');
+}
+
+ ?>
+
+<?php
+
+if(isset($_POST['sair'])){
+  $_SESSION['mycod'] = null;
+  session_destroy();
+  header('Location: /MyAdventure/ViewsForms/login.php');
+}
+
+
+ ?>
+
+
 <!DOCTYPE html>
 <html >
   <head>
@@ -13,9 +38,12 @@
   <div class="lmi-head-center">
       <div class="lmi-head-center-user">
          <div class="lmi-head-center-user-myadv">
-            <h4>MyCod 15000</h4>
+            <h4><?php echo "MyCod ".$mycod; ?></h4>
          </div>
         <div class="lmi-head-center-user-img">
+          <form method="post">
+              <input type="submit" class="btn btn-default" name="sair" value="Sair">
+          </form>
 
         </div>
       </div>

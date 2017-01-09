@@ -12,7 +12,7 @@
               <div class="box-index-center">
 
                 <div class="participar">
-                  Participar
+                <a href="ViewsForms/login.php">Participar</a>
                 </div>
                         <h1>Index</h1>
               </div>
