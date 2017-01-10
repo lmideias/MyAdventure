@@ -18,6 +18,18 @@
 
 /*==============================================================*/
 
+/*-- linha acima do botao participar*/
+.box-index-full-linha{
+       width: 100%;
+       height:5px;
+      background-color:#ef6c00;
+
+}
+
+
+/*----------------------------------------*/
+
+
 .box-index-full2{
      width: 100%;
      height:500px;
@@ -28,9 +40,11 @@
     background: linear-gradient(#558B2F, #7CB342);
 
 }
+
 .box-index-center{
       width: 1024px;
       height:500px;
+
       margin-left: auto;
       margin-right: auto;
 }
@@ -39,11 +53,49 @@
       width: 1024px;
       height:500px;
       margin-top: 1px;
-
+      background-color:#f1f8e9;
       margin-left: auto;
       margin-right: auto;
-      border: 1px solid #558B2F;
+
 }
+
+/*---- propriedades do header ----*/
+
+.box-index-center-left{
+    width: 341px;
+   height:495px;
+    margin-top: 0px;
+    box-sizing: border-box;
+  background-color:#ef6c00;
+    margin-left: 0px;
+    float: left;
+  display: block;
+  padding: 0px;
+}
+.box-index-center-center{
+    width: 342px;
+   height:495px;
+    margin-top: 0px;
+    box-sizing: border-box;
+  background-color:#ffc;
+    margin-left: 0px;
+    float: left;
+  display: block;
+  padding: 0px;
+}
+.box-index-center-right{
+    width: 341px;
+   height:495px;
+    margin-top: 0px;
+    box-sizing: border-box;
+
+    margin-left: 0px;
+    float: left;
+  display: block;
+  padding: 0px;
+}
+
+
 
 /*==============================================================*/
 
@@ -70,6 +122,19 @@ border-radius: 0px 0px 30px 30px;
   box-sizing: border-box;
 background-color:#ef6c00;
 padding: 10px;
+
+  color: white;
+-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
 text-align: center;
-color: #fff;
+    text-decoration: none;
+
+    font-size: 16px;
+}
+
+.participar:hover {
+    background-color: #ef6c00;
+  font-size: 14px;
+    border-radius: 20px 20px 20px 20px;
 }
