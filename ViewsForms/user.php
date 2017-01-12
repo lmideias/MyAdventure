@@ -8,7 +8,7 @@ if(isset($_POST['cadastrar'])){
   $erro = "";
   $celular = $_POST['celular'];
   $senha = $_POST['senha'];
-  $ativo = 1;
+  $ativo = 0;
   $datacad = date("y/m/d");
   $tipo = 1;
 
@@ -29,7 +29,7 @@ if(isset($_POST['cadastrar'])){
     //--cadastra
     $cadastrar->execute();
     $id =  $pdo->lastInsertId();
-  //  setcookie("mycodcokie",$id,3600);
+
   header('Location: pessoa.php');
 
       //----- SESSION ID, CELULAR, SENHA -----

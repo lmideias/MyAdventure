@@ -15,8 +15,10 @@ if(!empty($mycod)){
 
 if(isset($_POST['sair'])){
   $_SESSION['mycod'] = null;
+  $_SESSION['celular'] = null;
+  $_SESSION['tipo'] = null;
   session_destroy();
-  header('Location: /MyAdventure/ViewsForms/login.php');
+  header('Location: /MyAdventure/index.php');
 }
 
 
@@ -34,16 +36,35 @@ if(isset($_POST['sair'])){
   </head>
   <body>
 <div class="lmi-head">
+  <div class="lmi-header-full-linha"></div>
+
 
   <div class="lmi-head-center">
+    <div class="lmi-header-center-linha-menu">
+
+      <div class="menu-sair">
+           <form method="post">
+               <input type="submit" class="menu-sair" name="sair" value="Sair">
+           </form>
+      </div>
+
+      <div class="menu-myadv">
+         <h4><?php echo "MyCod ".$mycod; ?></h4>
+      </div>
+
+        <div class="menu-seach">
+          <form class="form-inline">
+ <div class="form-group">
+    <input type="text" class="form-control" id="" placeholder="MyCod">
+    <button type="submit" class="btn btn-default">Pesquisar</button>
+ </div>
+</form>
+        </div>
+
+    </div>
+
       <div class="lmi-head-center-user">
-         <div class="lmi-head-center-user-myadv">
-            <h4><?php echo "MyCod ".$mycod; ?></h4>
-         </div>
         <div class="lmi-head-center-user-img">
-          <form method="post">
-              <input type="submit" class="btn btn-default" name="sair" value="Sair">
-          </form>
 
         </div>
       </div>

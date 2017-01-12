@@ -1,3 +1,23 @@
+<?php
+if(isset($_POST['participar'])){
+
+  $dado1 = $_SESSION['mycod'];
+  $dado2 = $_SESSION['celular'];
+  $dado3 = $_SESSION['senha'];
+
+if (!empty($dado1)&&!empty($dado2)&&!empty($dado3)) {
+header('Location: ViewsForms/login.php');
+}else {
+header('Location: ./MyAdventure/MyAdv.php');
+}
+
+}
+
+
+
+ ?>
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -16,9 +36,13 @@
   <h1>caixa esquerda</h1>
                 </div>
                 <div class="box-index-center-center">
-                  <div class="participar">
-                     <h4>Participar</h4>
-                  </div>
+                  <form method="post">
+                    <div class="participar2" name="participar">
+                        <input type="submit" class="participar" name="participar" value="Participar">
+                    </div>
+
+                  </form>
+
                 </div>
                 <div class="box-index-center-right">
                        <div class="">

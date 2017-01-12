@@ -4,7 +4,24 @@ include ('php/conexao.php');
 $pdo = conectar();
 session_start();
 
-if(isset($_POST['cadastrar'])){
+//verificar se existe uma pessoa usando o id do usuario.
+$mycod =  $_SESSION['mycod'];
+$erro = "";
+$pessoa = "";
+
+if(!empty($mycod)){
+  //---validar os dados
+  $verifica=$pdo->prepare("SELECT * FROM pessoa WHERE mycod=?");
+  $verifica->execute(array($mycod));
+
+  if($verifica->rowCount()== 0){
+
+  $pessoa = "ok";
+//----------- se ok executa o codigo abaixo -----------------------------------
+
+
+
+if(isset($_POST['cadastrar']) && !empty($pessoa)){
 
   $erro = "";
   $nome = $_POST['nome'];
@@ -14,7 +31,7 @@ if(isset($_POST['cadastrar'])){
   $ecivil = $_POST['ecivil'];
 
   $dnascimento = date("Y-m-d",strtotime(str_replace('/','-',$dnascimento)));
-  //$mycod = $_COOKIE['mycodcokie'];
+
   $mycod =  $_SESSION['mycod'];
 
  if(!empty($mycod)){
@@ -29,8 +46,8 @@ if(isset($_POST['cadastrar'])){
       $cadastrar->bindValue(	":mycod", $mycod);
       //--cadastra
       $cadastrar->execute();
-      //  setcookie("mycodcokie",null,0);
-      header('Location: MyAdventure/MyAdv.php');
+
+      header('Location: /MyAdventure/MyAdventure/MyAdv.php');
       $erro = "Cadastrado";
     }
     else
@@ -44,12 +61,22 @@ if(isset($_POST['cadastrar'])){
       $erro = "Não pegou o MyCod ".$mycod;
   }
 
-
 }
 else
   {
       $erro = "Erro ao clicar no botao";
   }
+
+//--------- fim da verificação ----------------------------------------
+
+}
+else{
+$erro = "Já existe uma pessoa cadastrada para esse usuario, faça o login";
+}
+
+}else{
+header('Location: user.php');
+}
 
 
 

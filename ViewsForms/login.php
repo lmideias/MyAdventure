@@ -2,7 +2,7 @@
 
 include ('php/conexao.php');
 $pdo = conectar();
-
+$erro = "";
 
 if(isset($_POST['logar'])){
   $erro = "";
@@ -28,35 +28,42 @@ if($linha != null){
   //---validar os dados
 
   foreach ($linha as $dado) {
-  $id = $dado['useid'];
-  $au = $dado['celular'];
-  $senh = $dado['senha'];
-  $at = $dado['ativo'];
+  $userid = $dado['userid'];
+  $celular = $dado['celular'];
+  $ativo = $dado['ativo'];
+  $tipo = $dado['tipo'];
+
   }
 
-  //----- SESSION ID, CELULAR, SENHA -----
 
-      //  session_start();
-      //  $_SESSION['mycod'] = $id;
-      //  $_SESSION['celular'] = $celular;
-      //  $_SESSION['senha'] = $senha;
+
+if ($ativo == 1) {
+
+  //----- SESSION  -----
+
+      session_start();
+      $_SESSION['mycod'] = $userid;
+      $_SESSION['celular'] = $celular;
+      $_SESSION['tipo'] = $tipo;
 
 /*--------------------------------------------*/
 
-if ($at == 1) {
-    header('Location: aTeste.php');
+    if ($tipo == 1) {
+        header('Location: /MyAdventure/MyAdventure/MyAdv.php');
+      }else{
+        header('Location: Hub.php');
+      }
+
 }else{
-  header('Location: Hub.php');
+  $erro = "Usuario Bloqueado, entre em contato com os administradores";
 }
 
 }else{
-    //$erro = " Celular ou Senha Errados";
-echo "Celular ou Senha Errados";
+  $erro = "Celular ou Senha incorretos";
 }
 
   }else{
-      //$erro = " Celular ou Senha Errados";
-  echo "Preencha os campos";
+  $erro = "Preencha todos os campos acima";
   }
 }
 
@@ -92,10 +99,18 @@ echo "Celular ou Senha Errados";
 
        <div class="bx">
          <!-- Indicates a successful or positive action -->
-      <input type="submit" class="btn btn-default" name="logar" value="Cadastrar">
+      <input type="submit" class="btn btn-default" name="logar" value="Logar">
        </div>
 
       </form>
+      <div class="bx">
+        <p class="">
+          <?php
+            echo $erro;
+           ?>
+        </p>
+      </div>
+
       <div class="bx">
         <p class="">
           Se ainda nao fez o cadastro clique aqui e faça o seu para poder participar   <a href="termouser.php">Cadastrar</a>
