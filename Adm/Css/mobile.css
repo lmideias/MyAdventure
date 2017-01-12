@@ -1,0 +1,126 @@
+/*==========  Mobile First Method  ==========*/
+
+	/* Custom, iPhone Retina */
+	@media only screen and (min-width : 320px){
+		  .box1{width: 100%; height: auto; padding: 5%;   box-sizing: border-box;
+		  background-color:#ef6c00; margin-top: 10px;}
+			.box2{width: 100%; height: auto; padding: 5%;   box-sizing: border-box;
+			background-color:#ef6c00; margin-top: 10px;}
+
+/*----------  HEADER FULL E CENTER ---------------------------*/
+
+.lmi-barra-full-linha{
+	width: 100%;
+	height: 3px;
+  background-color:#ef6c00;
+
+}
+
+.lmi-barra-full{
+	width: 100%;
+	height: 65px;
+}
+
+/*---- MENU HEADER -----*/
+
+.lmi-menu-box{
+	width: 60px;
+  height: 60px;
+margin-top: 5px;
+	box-sizing: border-box;
+  float: right;
+margin-right: 15px;
+	background-color:#ef6c00;
+	border-radius: 10px;
+}
+
+/*---------------------------------*/
+			.base-a{
+			  width: 100%;
+			  height: auto;
+			  box-sizing: border-box;
+			  padding: 40px 40px 40px 40px;
+			  margin-top: 5px;
+			  background-color: #c8e6c9;
+			  border-radius: 6px;
+
+			}
+
+
+	}
+
+	/* Extra Small Devices, Phones */
+	@media only screen and (min-width : 480px){
+		.box1{width: 100%; height: auto; padding: 5%;   box-sizing: border-box;
+		background-color:#f6c; margin-top: 10px;}
+
+		.base-a{
+				width: 320px;
+				height: auto;
+				box-sizing: border-box;
+				padding: 40px 40px 40px 40px;
+				margin-top: 5px;
+				background-color: #c8e6c9;
+				border-radius: 6px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (min-width : 768px){
+		.box1{width: 100%; height: auto; padding: 5%;   box-sizing: border-box;
+		background-color:#efc; margin-top: 10px;}
+
+		.base-a{
+				width: 440px;
+				height: auto;
+				box-sizing: border-box;
+				padding: 40px 40px 40px 40px;
+				margin-top: 5px;
+				background-color: #c8e6c9;
+				border-radius: 6px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+	}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 992px){
+		.box1{width: 100%; height: auto; padding: 5%;   box-sizing: border-box;
+		background-color:#c00; margin-top: 10px;}
+
+		.base-a{
+				width: 320px;
+				height: auto;
+				box-sizing: border-box;
+				padding: 40px 40px 40px 40px;
+				margin-top: 5px;
+				background-color: #c8e6c9;
+				border-radius: 6px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+	}
+
+	/* Large Devices, Wide Screens */
+	@media only screen and (min-width : 1200px){
+		.box1{width: 100%; height: auto; padding: 5%;   box-sizing: border-box;
+		background-color:#ef6; margin-top: 10px;}
+
+		.base-a{
+				width: 320px;
+				height: auto;
+				box-sizing: border-box;
+				padding: 40px 40px 40px 40px;
+				margin-top: 5px;
+				background-color: #c8e6c9;
+				border-radius: 6px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+
+
+	}
