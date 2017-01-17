@@ -7,7 +7,7 @@
    <link href="Css/Reset.css" rel="stylesheet" type="text/css"/>
   <link href="../Inc/Libs/bootstrap.css" rel="stylesheet" type="text/css"/>
   </head>
-  <body>
+  <body class="lmi-body-bg">
 <div class="lmi-barra-full-linha">
 </div>
 <div class="lmi-barra-full">
@@ -20,57 +20,221 @@
 
 
 
-<div class="box1">
-
-
-
-
-
-
-
-
-
-
+<div class="container-body">
+<div class="container-body-center">
   <div class="base-a">
-    <div class="bx">
-     <h4>Cadastrar Usuário</h4>
+
+    <input type="submit" class="lmi-btn-x" name="fechar" value="X">
+
+    <div class="lmi-form-linha tcenter">
+        <h4>Cadastrar Usuário</h4>
     </div>
-    <hr>
+    <div class="lmi-form-linha"></div>
+<br>
+
     <form method="POST">
-   <div class="form-inline">
+
      <div class="form-group">
        <input type="text" class="form-control" name="celular" id="celular" placeholder="Celular">
      </div>
      <div class="form-group">
        <input type="text" class="form-control" name="senha" id="senha" placeholder="Senha">
      </div>
-   </div>
+   
 
-   <div class="bx">
-     <!-- Indicates a successful or positive action -->
-     <input type="submit" class="btn btn-default" name="cadastrar" value="Cadastrar">
-
+   <div class="lmi-form-linha">
+       <button type="submit" name="cadastrar" class="lmi-btn-a">Cadastrar</button>
    </div>
 
   </form>
-  <div class="bx">
+  <div class="lmi-form-linha">
+       <p class="error tcenter">Erro ai cadastrar o usuario</p>
+  </div>
+
+  </div>
+
+</div>
+</div>
+
+
+
+
+<div class="container-body">
+  <div class="container-body-center">
+  <div class="base-a">
+    <input type="submit" class="lmi-btn-x" name="fechar" value="X">
+
+    <div class="lmi-form-linha tcenter">
+        <h4>Termo de Responsabilidade</h4>
+    </div>
+    <div class="lmi-form-linha"><hr></div>
+<br>
+    <form method="post">
+     <p class="termo-a">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+     </p>
+     <br>
+     <div class="checkbox">
+       <label>
+         <input type="checkbox" name="confirmar" value="confirmado"> Aceito as condições
+       </label>
+     </div>
+
+     <br>
+     <button type="submit" name="validar" class="lmi-btn-a">Confirmar</button>
+    </form>
+    <div class="lmi-form-linha">
+         <p class="error tcenter">Erro ai cadastrar o usuario</p>
+    </div>
+
+  </div>
+</div></div>
+
+
+
+
+<div class="container-body">
+  <div class="container-body-center">
+
+        <div class="base-a">
+
+          <input type="submit" class="lmi-btn-x" name="fechar" value="X">
+
+          <div class="lmi-form-linha tcenter">
+              <h4>Dados Pessoais</h4>
+          </div>
+          <div class="lmi-form-linha"></div>
+
+
+          <form method="POST">
+
+           <div class="form-group">
+             <input type="text" class="form-control" name="nome" id="celular" placeholder="Nome">
+           </div>
+           <div class="form-group">
+             <input type="text" class="form-control" name="snome" id="" placeholder="Sobre Nome">
+           </div>
+           <div class="form-group">
+             <input type="text" class="form-control" name="nnome" id="" placeholder="Nick Name">
+           </div>
+           <div class="form-group">
+             <input type="text" class="form-control" name="dnascimento" id="" placeholder="Data Nascimento">
+           </div>
+
+           <select name="ecivil" class="form-control">
+             <option>Estado Civil</option>
+             <option>Solteira(o)</option>
+             <option>Casado(a)</option>
+             <option>Enrolados</option>
+              <option>Namorando</option>
+
+           </select>
+
+
+         <div class="lmi-form-linha"></div>
+            <div class="lmi-form-linha">
+              <input type="submit" class="lmi-btn-a" name="cadastrar" value="Cadastrar">
+            </div>
+        </form>
+        <div class="lmi-form-linha">
+             <p class="error tcenter">Erro ai cadastrar o usuario</p>
+        </div>
+
+
+
+        </div>
+</div></div>
+
+<div class="container-body">
+  <div class="container-body-center">
+  <div class="base-a">
+
+
+    <input type="submit" class="lmi-btn-x" name="fechar" value="X">
+
+    <div class="lmi-form-linha tcenter">
+        <h4>Login</h4>
+    </div>
+    <div class="lmi-form-linha"></div>
+
+
+    <form  method="post">
+
+     <div class="form-group">
+       <input type="text" class="form-control" name="celular" id="celular" placeholder="Celular">
+     </div>
+     <div class="form-group">
+       <input type="password" class="form-control" name="senha" id="senha" placeholder="Senha">
+     </div>
+
+
+
+  <div class="lmi-form-linha"></div>
+    <div class="lmi-form-linha">
+      <input type="submit" class="lmi-btn-a" name="logar" value="Logar">
+    </div>
+
+  </form>
+  <div class="lmi-form-linha">
+       <p class="error tcenter">Erro ai cadastrar o usuario</p>
+  </div>
+  <div class="lmi-form-linha"></div>
+  <div class="lmi-form-linha">
     <p class="">
-      <a href="user.php">Sair</a>
-      <a href="/MyAdventure/">Voltar</a>
+      Se ainda nao tem cadastro, faça o seu para poder participar clicando no link -> .
+      <a href="termouser.php">Cadastrar</a>
     </p>
   </div>
 
   </div>
-</div>
-<div class="box2">
-  <h1>Box 01</h1>
+</div></div>
 
-  <p>
-O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão.
-O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500,
-quando uma misturou os caracteres de um texto para criar um espécime de livro.
+<div class="container-body">
+  <div class="container-body-center">
+  <div class="base-a">
 
-  </p>
-</div>
+
+    <input type="submit" class="lmi-btn-x" name="fechar" value="X">
+
+    <div class="lmi-form-linha tcenter">
+        <h4>Escolha onde quer logar</h4>
+    </div>
+    <div class="lmi-form-linha"></div>
+
+
+    <form  method="post">
+
+
+
+  <div class="lmi-form-linha"></div>
+    <div class="lmi-form-linha">
+      <input type="submit" class="lmi-btn-a" name="logar" value="MyAdventure">
+    </div>
+    <div class="lmi-form-linha">
+      <input type="submit" class="lmi-btn-a" name="logar" value="Administraçao">
+    </div>
+    <div class="lmi-form-linha">
+      <input type="submit" class="lmi-btn-a" name="logar" value="Portal">
+    </div>
+
+  </form>
+
+  <div class="lmi-form-linha">
+       <p class="error tcenter">Erro ai cadastrar o usuario</p>
+  </div>
+
+
+  </div>
+</div></div>
+
+<div class="container-body">
+  <div class="container-body-center">
+
+</div></div>
+<div class="container-body">
+  <div class="container-body-center">
+
+</div></div>
+
+
   </body>
 </html>

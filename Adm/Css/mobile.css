@@ -1,18 +1,95 @@
 /*==========  Mobile First Method  ==========*/
 
-	/* Custom, iPhone Retina */
-	@media only screen and (min-width : 320px){
-		  .box1{width: 100%; height: auto; padding: 5%;   box-sizing: border-box;
-		  background-color:#ef6c00; margin-top: 10px;}
-			.box2{width: 100%; height: auto; padding: 5%;   box-sizing: border-box;
-			background-color:#ef6c00; margin-top: 10px;}
+.lmi-body-bg{
+	width: 100%;
+	height: 100%;
+	 background-image: url('/MyAdventure/Imagens/bg4.jpg');
+		background-repeat: no-repeat;
+		background-color: #000000;
+	background-position: center center;
+	background-attachment: fixed;
+	 background-size: cover; /*Css padrão*/
+	-webkit-background-size: cover; /*Css safari e chrome*/
+	-moz-background-size: cover; /*Css firefox*/
+	-ms-background-size: cover; /*Css IE não use mer#^@%#*/
+	-o-background-size: cover; /*Css Opera*/
+	margin: 0in;
+}
+
+
+
+/*
+*===============================================================================================
+*==== MAX 320px ================================================================================
+*===============================================================================================
+*/
+
+	@media only screen and (max-width : 480px){
+
+
+/*============  INDEX - HOME ================================================================*/
+/*---- MENU PARTICIPAR -----*/
+
+.lmi-menu-participar{
+	width: 160px;
+	height: 45px;
+margin-top: px;
+	box-sizing: border-box;
+	display: block;
+margin-right: 15px;
+	background-color:#ef6c00;
+	border-radius: 0px 0px 20px 20px;
+	margin-left: auto;
+ margin-right: auto;
+ color: #fff;
+ border: none;
+	text-align: center;
+	font-size: 16px;
+}
+
+.lmi-header-full{
+	width: 100%;
+	height: 550px;
+	 background-image: url('/MyAdventure/Imagens/bg4.jpg');
+		background-repeat: no-repeat;
+		background-color: #000000;
+	background-position: center center;
+	background-attachment: fixed;
+	 background-size: cover; /*Css padrão*/
+	-webkit-background-size: cover; /*Css safari e chrome*/
+	-moz-background-size: cover; /*Css firefox*/
+	-ms-background-size: cover; /*Css IE não use mer#^@%#*/
+	-o-background-size: cover; /*Css Opera*/
+	margin: 0in;
+}
+
+.lmi-header-center-linha{
+	width: 100%;
+	height: 50px;
+	background-color:#ef0;
+}
+/*============================================================================*/
+
+/*----container-body -----------*/
+
+		.container-body{
+			width: 100%;
+			height: auto;
+			display: block;
+			float: left;
+				padding:15px;
+			box-sizing: border-box;
+			margin-top: 10px;
+		}
+
+
 
 /*----------  HEADER FULL E CENTER ---------------------------*/
 
 .lmi-barra-full-linha{
 	width: 100%;
 	height: 3px;
-  background-color:#ef6c00;
+	background-color:#ef6c00;
 
 }
 
@@ -25,102 +102,690 @@
 
 .lmi-menu-box{
 	width: 60px;
-  height: 60px;
+	height: 60px;
 margin-top: 5px;
 	box-sizing: border-box;
-  float: right;
+	float: right;
 margin-right: 15px;
 	background-color:#ef6c00;
 	border-radius: 10px;
 }
 
-/*---------------------------------*/
+/*----- FORMULARIOS ----------------------------*/
+
 			.base-a{
-			  width: 100%;
-			  height: auto;
-			  box-sizing: border-box;
-			  padding: 40px 40px 40px 40px;
-			  margin-top: 5px;
-			  background-color: #c8e6c9;
-			  border-radius: 6px;
-
-			}
-
-
-	}
-
-	/* Extra Small Devices, Phones */
-	@media only screen and (min-width : 480px){
-		.box1{width: 100%; height: auto; padding: 5%;   box-sizing: border-box;
-		background-color:#f6c; margin-top: 10px;}
-
-		.base-a{
-				width: 320px;
+				width: 100%;
 				height: auto;
+				display: block;
+				float: left;
 				box-sizing: border-box;
-				padding: 40px 40px 40px 40px;
+				padding: 10px 20px 40px 20px;
 				margin-top: 5px;
-				background-color: #c8e6c9;
+				background-color:#aed581;
 				border-radius: 6px;
-				margin-left: auto;
-				margin-right: auto;
+
 			}
+
+		 .lmi-btn-x{
+			 width: 40px;
+			 height: 40px;
+			 display: block;
+			 float: right;
+			 	border: none;
+			 margin-top: -15px;
+			 background-color:#ef6c00;
+		 }
+		 .tcenter{	text-align: center;}
+		 .mtop{margin-top: 15px;}
+     .termo-a{text-align: justify;}
+			.lmi-form-linha{
+				width: 100%;
+				height: auto;
+				display: block;
+				float: right;
+				margin-top: 10px;
+
+			}
+
+			.lmi-form-linha-img{
+				width: 40px;
+				height: 40px;
+			  display: block;
+				float: left;
+				margin-left: 20px;
+				background-color:#ef6c00;
+			}
+
+			.lmi-form-linha-input{
+				width: 150px;
+				height: 40px;
+				margin-left: 5px;
+				display: block;
+				float: left;
+
+			}
+
+			.lmi-input{
+				width: 140px;
+				height: 40px;
+				display: block;
+				float: left;
+				border: none;
+				border-bottom: 1px solid #fff;
+				padding: 10px 10px 10px 10px;
+				color: #ef6c00;
+				text-align: center;
+				font-size: 18px;
+	     background-color: #c8e6c9;
+
+			}
+
+			.lmi-btn-a{
+				width: 140px;
+				height: 40px;
+				display: block;
+								border: none;
+				margin-left: auto;
+			 margin-right: auto;
+				color: #fff;
+				text-align: center;
+				font-size: 16px;
+		    background-color:#ef6c00;
+			}
+
 
 	}
 
-	/* Small Devices, Tablets */
+
+
+/*
+*===============================================================================================
+*==== MAX 480px ================================================================================
+*===============================================================================================
+*/
+
+
+@media only screen and (min-width : 480px) {
+	/*----container-body -----------*/
+
+			.container-body{
+				width: 100%;
+				height: auto;
+				display: block;
+				float: left;
+				padding:15px;
+				box-sizing: border-box;
+
+				margin-top: 10px;
+			}
+
+/*---container-body-center - centralizar as caixas ---------*/
+
+			.container-body-center{
+				 width: 320px;
+				 height: auto;
+				 display: block;
+					 margin-left: auto;
+ 					margin-right: auto;
+			 }
+
+
+	/*----------  HEADER FULL E CENTER ---------------------------*/
+
+	.lmi-barra-full-linha{
+		width: 100%;
+		height: 3px;
+		background-color:#ef6c00;
+
+	}
+
+	.lmi-barra-full{
+		width: 100%;
+		height: 65px;
+	}
+
+	/*---- MENU HEADER -----*/
+
+	.lmi-menu-box{
+		width: 60px;
+		height: 60px;
+	margin-top: 5px;
+		box-sizing: border-box;
+		float: right;
+	margin-right: 15px;
+		background-color:#ef6c00;
+		border-radius: 10px;
+	}
+
+	/*----- FORMULARIOS ----------------------------*/
+
+				.base-a{
+					width: 320px;
+					height: auto;
+					display: block;
+					float: left;
+					box-sizing: border-box;
+					padding: 10px 20px 40px 20px;
+					margin-top: 5px;
+						background-color:#aed581;
+					border-radius: 6px;
+
+					margin-left: auto;
+					margin-right: auto;
+
+				}
+
+
+			 .lmi-btn-x{
+				 width: 40px;
+				 height: 40px;
+				 display: block;
+				 float: right;
+				 	border: none;
+				 margin-top: -15px;
+				 background-color:#ef6c00;
+			 }
+			 .tcenter{	text-align: center;}
+			 .mtop{margin-top: 15px;}
+	     .termo-a{text-align: justify;}
+				.lmi-form-linha{
+					width: 100%;
+					height: auto;
+					display: block;
+					float: right;
+					margin-top: 10px;
+
+				}
+
+				.lmi-form-linha-img{
+					width: 40px;
+					height: 40px;
+				  display: block;
+					float: left;
+					margin-left: 20px;
+					background-color:#ef6c00;
+				}
+
+				.lmi-form-linha-input{
+					width: 150px;
+					height: 40px;
+					margin-left: 5px;
+					display: block;
+					float: left;
+
+				}
+
+				.lmi-input{
+					width: 140px;
+					height: 40px;
+					display: block;
+					float: left;
+					border: none;
+					border-bottom: 1px solid #fff;
+					padding: 10px 10px 10px 10px;
+					color: #ef6c00;
+					text-align: center;
+					font-size: 18px;
+		background-color: #c8e6c9;
+
+				}
+
+				.lmi-btn-a{
+					width: 140px;
+					height: 40px;
+					display: block;
+
+					border: none;
+					margin-left: 45px;
+					color: #fff;
+					text-align: center;
+					font-size: 16px;
+			    background-color:#ef6c00;
+					margin-left: auto;
+				 margin-right: auto;
+				}
+
+}
+
+
+
+	/*
+	*===============================================================================================
+	*==== mim 768px ================================================================================
+	*===============================================================================================
+	*/
 	@media only screen and (min-width : 768px){
-		.box1{width: 100%; height: auto; padding: 5%;   box-sizing: border-box;
-		background-color:#efc; margin-top: 10px;}
+		/*----container-body -----------*/
 
-		.base-a{
-				width: 440px;
-				height: auto;
-				box-sizing: border-box;
-				padding: 40px 40px 40px 40px;
-				margin-top: 5px;
-				background-color: #c8e6c9;
-				border-radius: 6px;
-				margin-left: auto;
-				margin-right: auto;
-			}
+				.container-body{
+					width: 100%;
+					height: auto;
+					display: block;
+					float: left;
+					padding:15px;
+					box-sizing: border-box;
+
+					margin-top: 10px;
+				}
+
+	 /*---container-body-center - centralizar as caixas ---------*/
+
+				.container-body-center{
+					 width: 320px;
+					 height: auto;
+					 display: block;
+						 margin-left: auto;
+							margin-right: auto;
+				 }
+
+
+		/*----------  HEADER FULL E CENTER ---------------------------*/
+
+		.lmi-barra-full-linha{
+			width: 100%;
+			height: 3px;
+			background-color:#ef6c00;
+
+		}
+
+		.lmi-barra-full{
+			width: 100%;
+			height: 65px;
+		}
+
+		/*---- MENU HEADER -----*/
+
+		.lmi-menu-box{
+			width: 60px;
+			height: 60px;
+		margin-top: 5px;
+			box-sizing: border-box;
+			float: right;
+		margin-right: 15px;
+			background-color:#ef6c00;
+			border-radius: 10px;
+		}
+
+		/*----- FORMULARIOS ----------------------------*/
+
+					.base-a{
+						width: 320px;
+						height: auto;
+						display: block;
+						float: left;
+						box-sizing: border-box;
+						padding: 10px 20px 40px 20px;
+						margin-top: 5px;
+						background-color:#aed581;
+						border-radius: 6px;
+
+						margin-left: auto;
+						margin-right: auto;
+
+					}
+
+
+				 .lmi-btn-x{
+					 width: 40px;
+					 height: 40px;
+					 display: block;
+					 float: right;
+						border: none;
+					 margin-top: -15px;
+					 background-color:#ef6c00;
+				 }
+				 .tcenter{	text-align: center;}
+				 .mtop{margin-top: 15px;}
+				 .termo-a{text-align: justify;}
+					.lmi-form-linha{
+						width: 100%;
+						height: auto;
+						display: block;
+						float: right;
+						margin-top: 10px;
+
+					}
+
+					.lmi-form-linha-img{
+						width: 40px;
+						height: 40px;
+						display: block;
+						float: left;
+						margin-left: 20px;
+						background-color:#ef6c00;
+					}
+
+					.lmi-form-linha-input{
+						width: 150px;
+						height: 40px;
+						margin-left: 5px;
+						display: block;
+						float: left;
+
+					}
+
+					.lmi-input{
+						width: 140px;
+						height: 40px;
+						display: block;
+						float: left;
+						border: none;
+						border-bottom: 1px solid #fff;
+						padding: 10px 10px 10px 10px;
+						color: #ef6c00;
+						text-align: center;
+						font-size: 18px;
+			background-color: #c8e6c9;
+
+					}
+
+					.lmi-btn-a{
+						width: 140px;
+						height: 40px;
+						display: block;
+
+						border: none;
+						margin-left: 45px;
+						color: #fff;
+						text-align: center;
+						font-size: 16px;
+						background-color:#ef6c00;
+						margin-left: auto;
+					 margin-right: auto;
+					}
+
 	}
 
-	/* Medium Devices, Desktops */
+	/*
+	*===============================================================================================
+	*==== mim 992px ================================================================================
+	*===============================================================================================
+	*/
 	@media only screen and (min-width : 992px){
-		.box1{width: 100%; height: auto; padding: 5%;   box-sizing: border-box;
-		background-color:#c00; margin-top: 10px;}
+		/*----container-body -----------*/
 
-		.base-a{
-				width: 320px;
-				height: auto;
-				box-sizing: border-box;
-				padding: 40px 40px 40px 40px;
-				margin-top: 5px;
-				background-color: #c8e6c9;
-				border-radius: 6px;
-				margin-left: auto;
-				margin-right: auto;
-			}
+				.container-body{
+					width: 100%;
+					height: auto;
+					display: block;
+					float: left;
+						padding:15px;
+					box-sizing: border-box;
+
+					margin-top: 10px;
+				}
+
+	 /*---container-body-center - centralizar as caixas ---------*/
+
+				.container-body-center{
+					 width: 320px;
+					 height: auto;
+					 display: block;
+						 margin-left: auto;
+							margin-right: auto;
+				 }
+
+
+		/*----------  HEADER FULL E CENTER ---------------------------*/
+
+		.lmi-barra-full-linha{
+			width: 100%;
+			height: 3px;
+			background-color:#ef6c00;
+
+		}
+
+		.lmi-barra-full{
+			width: 100%;
+			height: 65px;
+		}
+
+		/*---- MENU HEADER -----*/
+
+		.lmi-menu-box{
+			width: 60px;
+			height: 60px;
+		margin-top: 5px;
+			box-sizing: border-box;
+			float: right;
+		margin-right: 15px;
+			background-color:#ef6c00;
+			border-radius: 10px;
+		}
+
+		/*----- FORMULARIOS ----------------------------*/
+
+					.base-a{
+						width: 320px;
+						height: auto;
+						display: block;
+						float: left;
+						box-sizing: border-box;
+						padding: 10px 20px 40px 20px;
+						margin-top: 5px;
+							background-color:#aed581;
+						border-radius: 6px;
+
+						margin-left: auto;
+						margin-right: auto;
+
+					}
+
+
+				 .lmi-btn-x{
+					 width: 40px;
+					 height: 40px;
+					 display: block;
+					 float: right;
+						border: none;
+					 margin-top: -15px;
+					 background-color:#ef6c00;
+				 }
+				 .tcenter{	text-align: center;}
+				 .mtop{margin-top: 15px;}
+				 .termo-a{text-align: justify;}
+					.lmi-form-linha{
+						width: 100%;
+						height: auto;
+						display: block;
+						float: right;
+						margin-top: 10px;
+
+					}
+
+					.lmi-form-linha-img{
+						width: 40px;
+						height: 40px;
+						display: block;
+						float: left;
+						margin-left: 20px;
+						background-color:#ef6c00;
+					}
+
+					.lmi-form-linha-input{
+						width: 150px;
+						height: 40px;
+						margin-left: 5px;
+						display: block;
+						float: left;
+
+					}
+
+					.lmi-input{
+						width: 140px;
+						height: 40px;
+						display: block;
+						float: left;
+						border: none;
+						border-bottom: 1px solid #fff;
+						padding: 10px 10px 10px 10px;
+						color: #ef6c00;
+						text-align: center;
+						font-size: 18px;
+			background-color: #c8e6c9;
+
+					}
+
+					.lmi-btn-a{
+						width: 140px;
+						height: 40px;
+						display: block;
+
+						border: none;
+						margin-left: 45px;
+						color: #fff;
+						text-align: center;
+						font-size: 16px;
+						background-color:#ef6c00;
+						margin-left: auto;
+					 margin-right: auto;
+					}
+
 	}
 
-	/* Large Devices, Wide Screens */
+	/*
+	*===============================================================================================
+	*==== mim 1200px ================================================================================
+	*===============================================================================================
+	*/
 	@media only screen and (min-width : 1200px){
-		.box1{width: 100%; height: auto; padding: 5%;   box-sizing: border-box;
-		background-color:#ef6; margin-top: 10px;}
+		/*----container-body -----------*/
 
-		.base-a{
-				width: 320px;
-				height: auto;
-				box-sizing: border-box;
-				padding: 40px 40px 40px 40px;
-				margin-top: 5px;
-				background-color: #c8e6c9;
-				border-radius: 6px;
-				margin-left: auto;
-				margin-right: auto;
-			}
+				.container-body{
+					width: 100%;
+					height: auto;
+					display: block;
+					float: left;
+					padding:15px;
+					box-sizing: border-box;
+
+					margin-top: 10px;
+				}
+
+	/*---container-body-center - centralizar as caixas ---------*/
+
+				.container-body-center{
+					 width: 320px;
+					 height: auto;
+					 display: block;
+						 margin-left: auto;
+						margin-right: auto;
+				 }
 
 
+		/*----------  HEADER FULL E CENTER ---------------------------*/
+
+		.lmi-barra-full-linha{
+			width: 100%;
+			height: 3px;
+			background-color:#ef6c00;
+
+		}
+
+		.lmi-barra-full{
+			width: 100%;
+			height: 65px;
+		}
+
+		/*---- MENU HEADER -----*/
+
+		.lmi-menu-box{
+			width: 60px;
+			height: 60px;
+		margin-top: 5px;
+			box-sizing: border-box;
+			float: right;
+		margin-right: 15px;
+			background-color:#ef6c00;
+			border-radius: 10px;
+		}
+
+		/*----- FORMULARIOS ----------------------------*/
+
+					.base-a{
+						width: 320px;
+						height: auto;
+						display: block;
+						float: left;
+						box-sizing: border-box;
+						padding: 10px 20px 40px 20px;
+						margin-top: 5px;
+							background-color:#aed581;
+						border-radius: 6px;
+
+						margin-left: auto;
+						margin-right: auto;
+
+					}
+
+
+				 .lmi-btn-x{
+					 width: 40px;
+					 height: 40px;
+					 display: block;
+					 float: right;
+						border: none;
+					 margin-top: -15px;
+					 background-color:#ef6c00;
+				 }
+				 .tcenter{	text-align: center;}
+				 .mtop{margin-top: 15px;}
+				 .termo-a{text-align: justify;}
+					.lmi-form-linha{
+						width: 100%;
+						height: auto;
+						display: block;
+						float: right;
+						margin-top: 10px;
+
+					}
+
+					.lmi-form-linha-img{
+						width: 40px;
+						height: 40px;
+						display: block;
+						float: left;
+						margin-left: 20px;
+						background-color:#ef6c00;
+					}
+
+					.lmi-form-linha-input{
+						width: 150px;
+						height: 40px;
+						margin-left: 5px;
+						display: block;
+						float: left;
+
+					}
+
+					.lmi-input{
+						width: 140px;
+						height: 40px;
+						display: block;
+						float: left;
+						border: none;
+						border-bottom: 1px solid #fff;
+						padding: 10px 10px 10px 10px;
+						color: #ef6c00;
+						text-align: center;
+						font-size: 18px;
+			background-color: #c8e6c9;
+
+					}
+
+					.lmi-btn-a{
+						width: 140px;
+						height: 40px;
+						display: block;
+
+						border: none;
+						margin-left: 45px;
+						color: #fff;
+						text-align: center;
+						font-size: 16px;
+						background-color:#ef6c00;
+						margin-left: auto;
+					 margin-right: auto;
+					}
 
 	}
