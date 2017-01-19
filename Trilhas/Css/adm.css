@@ -1,0 +1,173 @@
+
+/*==== TRES BASES DO LAYOUT =======*/
+
+.lmi-head{
+  width: 100%;
+  height: 150px;
+background-color: #263238;
+display: block;
+float: left;
+}
+
+/*---- Area de Avisos e propaganda do adventure*/
+
+.lmi-head-prop{
+  width: 100%;
+  height: 30px;
+  border: 1px solid #ffeb3b;
+  margin-top: -35px;
+  display: block;
+  float: left;
+}
+
+.lmi-body{
+  width: 100%;
+  height: auto;
+
+margin-top: 0px;
+display: block;
+float: left;
+}
+
+.lmi-footer{
+  width: 100%;
+  height: 60px;
+background-color: #263238;
+margin-top: 90px;
+display: block;
+float: left;
+}
+
+/*========= BASES CENTRAIS ===========================*/
+
+.lmi-head-center{
+  width: 1024px;
+  height: 150px;
+margin-left: auto;
+margin-right: auto;
+}
+.lmi-body-center{
+  width: 1024px;
+  height: auto;
+
+margin-left: auto;
+margin-right: auto;
+}
+.lmi-footer-center{
+  width: 1024px;
+  height: 60px;
+background-color:#263238;
+margin-left: auto;
+margin-right: auto;
+}
+
+/*--------- BASES LEFT, CENTER, RIGHT ----------*/
+
+.lmi-body-center-left{
+  width: 200px;
+  height: 600px;
+
+display: block;
+float: left;
+/*border: 1px solid #ffeb3b;*/
+}
+
+.lmi-body-center-center{
+  width: 594px;
+  height: auto;
+
+display: block;
+float: left;
+margin-left: 15px;
+border: 1px solid #ffeb3b;
+}
+
+.lmi-body-center-right{
+  width: 200px;
+  height: 600px;
+border: 1px solid #ffeb3b;
+display: block;
+float: left;
+margin-left: 15px;
+}
+
+/*========= BASE - USER -CENTER ========================================*/
+
+.lmi-head-center-user{
+  width: 200px;
+  height: 150px;
+border: 1px solid  #ff5722;
+display: block;
+float: left;
+margin-left: 0px;
+color: #fff;
+}
+
+.lmi-head-center-user-myadv{
+  width: 200px;
+  height: 30px;
+
+display: block;
+float: left;
+margin-top: 10px;
+margin-left: 0px;
+}
+
+.lmi-head-center-user-img{
+  width: 200px;
+  height: 200px;
+background-color:#cfd8dc;
+display: block;
+float: left;
+margin-top: 10px;
+ border-radius: 0px 50px 0px 50px;
+}
+
+/*======== BASE CONTAINERS CENTER =========================================*/
+
+.container-a{
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 30px 40px 30px 40px;
+  margin-top: 15px;
+  border: 1px solid #e65100;
+border-radius: 5px;
+}
+
+
+
+/*======= ADMINISTRAÇAO ======*/
+
+.lmi-adm-left-box-menu{
+  width: 100%;
+  height: 50px;
+background-color: #ff6f00;
+margin-top: 10px;
+display: block;
+float: left;
+}
+
+.lmi-btn{
+  width: 100%;
+  height: 50px;
+    margin-top: 5px;
+  background: #37474f;
+ -webkit-border-radius: 2;
+ -moz-border-radius: 2;
+ border-radius: 2px;
+ font-family: Georgia;
+ color: #ffffff;
+ font-size: 16px;
+ padding: 10px 20px 10px 20px;
+ text-decoration: none;
+   cursor: pointer;
+}
+
+.lmi-btn:hover{
+  background:#546e7a;
+ text-decoration: none;
+   cursor: pointer;
+     margin-top: 5px;
+     margin-left: 5px;
+}
