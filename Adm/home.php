@@ -7,7 +7,7 @@
    <link href="Css/Reset.css" rel="stylesheet" type="text/css"/>
   <link href="../Inc/Libs/bootstrap.css" rel="stylesheet" type="text/css"/>
   </head>
-  <body class="">
+  <body class="lmi-body-bg">
 <div class="lmi-barra-full-linha"></div>
 
 
@@ -15,7 +15,7 @@
   <div class="lmi-header-center">
     <div class="lmi-header-center-linha">
         <input type="submit" class="lmi-menu-participar" name="fechar" value=" Participar">
-    
+
     </div>
   </div>
 </div>
