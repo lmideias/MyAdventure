@@ -19,6 +19,9 @@
 </div>
 
 
+<!---///////////////////////////////////////////////////////////////////////////////-->
+
+
 
 <div class="container-body">
 <div class="container-body-center">
@@ -40,7 +43,7 @@
      <div class="form-group">
        <input type="text" class="form-control" name="senha" id="senha" placeholder="Senha">
      </div>
-   
+
 
    <div class="lmi-form-linha">
        <button type="submit" name="cadastrar" class="lmi-btn-a">Cadastrar</button>
@@ -55,6 +58,9 @@
 
 </div>
 </div>
+
+
+<!---///////////////////////////////////////////////////////////////////////////////-->
 
 
 
@@ -88,6 +94,9 @@
 
   </div>
 </div></div>
+
+
+<!---///////////////////////////////////////////////////////////////////////////////-->
 
 
 
@@ -144,6 +153,9 @@
         </div>
 </div></div>
 
+<!---///////////////////////////////////////////////////////////////////////////////-->
+
+
 <div class="container-body">
   <div class="container-body-center">
   <div class="base-a">
@@ -188,6 +200,9 @@
   </div>
 </div></div>
 
+<!---///////////////////////////////////////////////////////////////////////////////-->
+
+
 <div class="container-body">
   <div class="container-body-center">
   <div class="base-a">
@@ -226,15 +241,123 @@
   </div>
 </div></div>
 
+<!---///////////////////////////////////////////////////////////////////////////////-->
+
+<div class="container-body">
+  <div class="container-body-center">
+    <div class="base-a">
+
+      <input type="submit" class="lmi-btn-x" name="fechar" value="X">
+
+      <div class="lmi-form-linha tcenter">
+          <h4>Cadastrar Trilha</h4>
+      </div>
+      <div class="lmi-form-linha"></div>
+
+
+    <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post" enctype="multipart/form-data" name="cadastro" >
+
+       <div class="form-group">
+         <input type="text" class="form-control" name="nome" id="celular" placeholder="Nome da Trilha">
+       </div>
+
+
+       <div class="form-group">
+          <label for="" class="control-label">Limitado a 200 characteres</label>
+          <textarea class="form-control" placeholder="Localização"></textarea>
+       </div>
+       <div class="form-group">
+          <label for="" class="control-label">Limitado a 200 characteres</label>
+          <textarea class="form-control" placeholder="Descrição"></textarea>
+       </div>
+       <div class="form-group">
+         <label for="" class="control-label">Limitado a 200 characteres</label>
+         <textarea class="form-control" placeholder="Historia"></textarea>
+       </div>
+
+       <div class="form-group">
+         <div class="custom_file_upload">
+ 	                <input type="text" class="file" name="file_info" placeholder="Historia">
+ 	           <div class="file_upload">
+ 		             <input type="file" id="file_upload" name="file_upload" placeholder="Historia">
+ 	           </div>
+         </div>
+       </div>
+       <div class="form-group">
+         <div class="custom_file_upload">
+                  <input type="text" class="file" name="file_info" placeholder="Historia">
+             <div class="file_upload">
+                 <input type="file" id="file_upload" name="file_upload" placeholder="Historia">
+             </div>
+         </div>
+       </div>
+
+       <div class="form-group">
+         <div class="custom_file_upload">
+                  <input type="text" class="file" name="file_info" placeholder="Historia">
+             <div class="file_upload">
+                 <input type="file" id="file_upload" name="file_upload" placeholder="Historia">
+             </div>
+         </div>
+       </div>
+
+       <div class="form-group">
+         <div class="custom_file_upload">
+                  <input type="text" class="file" name="file_info" placeholder="Historia">
+             <div class="file_upload">
+                 <input type="file" id="file_upload" name="file_upload" placeholder="Historia">
+             </div>
+         </div>
+       </div>
+
+    
+
+
+
+     <div class="lmi-form-linha"></div>
+        <div class="lmi-form-linha">
+          <input type="submit" class="lmi-btn-a" name="cadastrar" value="Cadastrar">
+        </div>
+    </form>
+    <div class="lmi-form-linha">
+         <p class="error tcenter ">Erro ai cadastrar o usuario</p>
+
+    </div>
+
+
+
+    </div>
+</div></div>
+
+<!---///////////////////////////////////////////////////////////////////////////////-->
+
+
 <div class="container-body">
   <div class="container-body-center">
 
 </div></div>
+
+
+<!---///////////////////////////////////////////////////////////////////////////////-->
+
+
 <div class="container-body">
   <div class="container-body-center">
 
 </div></div>
 
+
+<!---///////////////////////////////////////////////////////////////////////////////-->
+
+
+
+<div class="container-body">
+  <div class="container-body-center">
+
+</div></div>
+
+
+<!---///////////////////////////////////////////////////////////////////////////////-->
 
   </body>
 </html>
