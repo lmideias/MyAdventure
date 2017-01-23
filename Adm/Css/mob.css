@@ -1,0 +1,349 @@
+
+
+/*==========  Mobile First Method  ==========*/
+
+.lmi-body-bg{
+	width: 100%;
+	height: 100%;
+	 background-image: url('/MyAdventure/Imagens/bg4.jpg');
+		background-repeat: no-repeat;
+		background-color: #000000;
+	background-position: center center;
+	background-attachment: fixed;
+	 background-size: cover; /*Css padrão*/
+	-webkit-background-size: cover; /*Css safari e chrome*/
+	-moz-background-size: cover; /*Css firefox*/
+	-ms-background-size: cover; /*Css IE não use mer#^@%#*/
+	-o-background-size: cover; /*Css Opera*/
+	margin: 0in;
+}
+
+/*======= HEADER =================================*/
+
+.lmi-linha-full{
+	width: 100%;
+	height: 3px;
+	background-color:red;
+
+}
+
+.lmi-header-full{
+		width: 100%;
+		height: 160px;
+		display: block;
+		background-color:#fff;
+
+	}
+
+	.lmi-header-center{
+			width: 1024px;
+			height: 160px;
+			display: block;
+				background-color:red;
+				margin-left: auto;
+			 margin-right: auto;
+		}
+.lmi-header-center-leftbox{
+	width: 160px;
+	height: 160px;
+	display: block;
+	float: left;
+		background-color:red;
+
+}
+
+		.lmi-header-center-linha{
+			width: 100%;
+			height: 52px;
+			margin-top: 0px;
+			display: block;
+			background-color: chartreuse;
+		}
+
+
+		/*--------- Opçoes do menu do header--------------------------*/
+
+		.menu-options{
+			width: 250px;
+	    height: 52px;
+  	display: block;
+	 	margin-left: auto;
+	   margin-right: auto;
+		}
+
+
+		.menu-a{
+			width: 123px;
+			height: 40px;
+			display: block;
+			float: left;
+			background-color:red;
+			border-radius: 0px 0px 0px 20px;
+		}
+		.menu-b{
+			width: 123px;
+			height: 40px;
+			display: block;
+			float: left;
+			margin-left: 2px;
+			background-color:red;
+				border-radius: 0px 0px 20px 0px;
+		}
+
+/*--------- fim menu do header --------------------------------------------------*/
+
+.lmi-header-center-leftbox img{
+	width: 140px;
+	height: 140px;
+	display: block;
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
+	background-color:red;
+	border-radius: 20px 20px 20px 20px;
+
+}
+
+
+
+
+/*========= MEDIA QUERY INICIO ===========================================*/
+
+
+/*--- Mobile portrait ---*/
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+	/*======= HEADER =================================*/
+
+	.lmi-linha-full{
+		width: 100%;
+		height: 3px;
+		background-color:red;
+
+	}
+
+	.lmi-header-full{
+			width: 100%;
+			height: 100px;
+			display: block;
+			background-color:#fff;
+
+		}
+
+		.lmi-header-center{
+				width: 100%;
+				height: 100px;
+				display: block;
+					margin-left: auto;
+				 margin-right: auto;
+			}
+
+/*--------------------------------------------*/
+
+	.lmi-header-center-leftbox{
+		width: 100px;
+		height: 100px;
+		display: none;
+		float: left;
+
+	}
+
+			.lmi-header-center-linha{
+				width: 100%;
+				height: 33px;
+				margin-top: 0px;
+				display: block;
+				background-color: chartreuse;
+			}
+
+
+			/*--------- Opçoes do menu do header--------------------------*/
+
+			.menu-options{
+				width: 200px;
+		    height: 52px;
+	  	display: block;
+		 	margin-left: auto;
+		   margin-right: auto;
+			}
+
+
+			.menu-a{
+				width: 99px;
+				height: 30px;
+				display: block;
+				float: left;
+				background-color:red;
+				border-radius: 0px 0px 0px 20px;
+			}
+
+			.menu-b{
+				width: 99px;
+				height: 30px;
+				display: block;
+				float: left;
+				margin-left: 2px;
+				background-color:red;
+					border-radius: 0px 0px 20px 0px;
+			}
+
+	/*--------- fim menu do header --------------------------------------------------*/
+
+	.lmi-header-center-leftbox img{
+		width: 80px;
+		height: 80px;
+		display: block;
+		float: left;
+		margin-left: 5px;
+		margin-top: 5px;
+		background-color:darkgreen;
+		border-radius: 50px 50px 50px 50px;
+
+	}
+
+/*------ inicio do body ----------------------*/
+
+.lmi-body{
+		width: 100%;
+		height: 400px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.lmi-body-container{
+			width: 100%;
+			height: auto;
+			display: block;
+			box-sizing: border-box;
+
+			padding: 20px;
+			background-color: aliceblue;
+
+		}
+
+
+}
+/*--- Mobile landscape ---*/
+@media only screen and (min-width : 480px) and (max-width : 595px) {
+	/*======= HEADER =================================*/
+
+	.lmi-linha-full{
+		width: 100%;
+		height: 3px;
+		background-color:red;
+
+	}
+
+	.lmi-header-full{
+			width: 100%;
+			height: 100px;
+			display: block;
+			background-color:#fff;
+
+		}
+
+		.lmi-header-center{
+				width: 100%;
+				height: 100px;
+				display: block;
+					margin-left: auto;
+				 margin-right: auto;
+			}
+
+	.lmi-header-center-leftbox{
+		width: 100px;
+		height: 100px;
+		display: block;
+		float: left;
+
+
+	}
+
+			.lmi-header-center-linha{
+				width: 100%;
+				height: 33px;
+				margin-top: 0px;
+				display: block;
+				background-color: chartreuse;
+			}
+
+
+			/*--------- Opçoes do menu do header--------------------------*/
+
+			.menu-options{
+				width: 200px;
+		    height: 52px;
+	  	display: block;
+		 	margin-left: auto;
+		   margin-right: auto;
+			}
+
+
+			.menu-a{
+				width: 99px;
+				height: 30px;
+				display: block;
+				float: left;
+				background-color:red;
+				border-radius: 0px 0px 0px 20px;
+			}
+
+			.menu-b{
+				width: 99px;
+				height: 30px;
+				display: block;
+				float: left;
+				margin-left: 2px;
+				background-color:red;
+					border-radius: 0px 0px 20px 0px;
+			}
+
+	/*--------- fim menu do header --------------------------------------------------*/
+
+	.lmi-header-center-leftbox img{
+		width: 90px;
+		height: 90px;
+		display: block;
+		float: left;
+		margin-left: 5px;
+		margin-top: 5px;
+		background-color:darkgreen;
+		border-radius: 50px 50px 50px 50px;
+
+	}
+
+
+
+
+}
+
+/*--- Small tablet portrait ---*/
+@media only screen and (min-width : 595px) and (max-width : 690px) {
+
+
+
+
+}
+
+/*--- Tablet portrait ---*/
+@media only screen and (min-width : 690px) and (max-width : 800px) {
+
+
+}
+
+
+
+/*--- Small tablet landscape ---*/
+@media only screen and (min-width : 800px) and (max-width : 1024px) {
+
+
+
+}
+
+/*--- Tablet landscape --- */
+@media only screen and (min-width : 1024px) and (max-width : 1200px) {
+
+
+
+}
+
+/*========= MEDIA QUERY FIM ===========================================*/

@@ -6,6 +6,7 @@
    <link rel="stylesheet" href="Css/mobile.css" />
    <link href="Css/Reset.css" rel="stylesheet" type="text/css"/>
   <link href="../Inc/Libs/bootstrap.css" rel="stylesheet" type="text/css"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body class="lmi-body-bg">
 <div class="lmi-barra-full-linha">
@@ -310,7 +311,7 @@
          </div>
        </div>
 
-    
+
 
 
 

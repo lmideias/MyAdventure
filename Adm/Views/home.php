@@ -1,6 +1,4 @@
-<div >
-  <p>{{hometext}}</p>
-  <hr>
-  <a href="" ng-click="logout()">Logout</a>
+<div class="container-form" ng-controller="aCtrl">
+  <h1>{{msntexto}}</h1>
 
 </div>

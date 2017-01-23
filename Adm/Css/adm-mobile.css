@@ -1,0 +1,414 @@
+
+
+/*==========  Mobile First Method  ==========*/
+
+.lmi-body-bg{
+	width: 100%;
+	height: 100%;
+	 background-image: url('/MyAdventure/Imagens/bg4.jpg');
+		background-repeat: no-repeat;
+		background-color: #000000;
+	background-position: center center;
+	background-attachment: fixed;
+	 background-size: cover; /*Css padrão*/
+	-webkit-background-size: cover; /*Css safari e chrome*/
+	-moz-background-size: cover; /*Css firefox*/
+	-ms-background-size: cover; /*Css IE não use mer#^@%#*/
+	-o-background-size: cover; /*Css Opera*/
+	margin: 0in;
+}
+
+/*==========  Mobile First Method  ==========*/
+
+
+/*==========  Mobile First Method  ==========*/
+
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+.container{
+    width: 100%;
+    height: auto;
+    background-color:#558b2f;
+     box-sizing: border-box;
+     padding: 5px;
+}
+
+.container-a{
+    width: 1024px;
+    height: auto;
+    box-sizing: border-box;
+    background-color:#fff;
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+.container-b{
+    width: 320px;
+    height: auto;
+    box-sizing: border-box;
+    background-color:#fff;
+    padding: 30px;
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+
+/*========= MEDIA QUERY INICIO ===========================================*/
+
+@media only screen and (max-width : 1024px){
+
+
+   /*----------  Base ---------------------------*/
+
+   .lmi-linha-full{
+   	width: 100%;
+   	height: 3px;
+   	background-color:#ff5722;
+
+   }
+
+   .lmi-header-full{
+   	width: 100%;
+   	height: 120px;
+      background-color: #37474f;
+   }
+   .lmi-header-center{
+   	width: 1024px;
+   	height: 120px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #374;
+   }
+
+   .lmi-container-body{
+      width: 100%;
+      height: auto;
+      background-color: #ffab00;
+   }
+
+   .lmi-container-body-center{
+      width: 1024px;
+      height: 600px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #fff;
+   }
+
+   /*---------- Fim da Base ---------------------------*/
+
+
+
+
+
+
+   .container{
+    width: 100%;
+    height: auto;
+    background-color:#ffc107;
+     box-sizing: border-box;
+     padding: 5px;
+}
+
+.container-a{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-color:#fff;
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+   .container-b{
+    width: 320px;
+    height: auto;
+    box-sizing: border-box;
+    background-color:#fff;
+    padding: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+}
+
+@media only screen and (max-width : 979px) {
+
+
+   /*----------  Base ---------------------------*/
+
+   .lmi-linha-full{
+   	width: 100%;
+   	height: 3px;
+   	background-color:#ff5722;
+
+   }
+
+   .lmi-header-full{
+   	width: 100%;
+   	height: 120px;
+      background-color:#ff5722;
+   }
+   .lmi-header-center{
+   	width: 979px;
+   	height: 120px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #374;
+   }
+
+   .lmi-container-body{
+      width: 100%;
+      height: auto;
+      background-color: #ffab00;
+   }
+
+   .lmi-container-body-center{
+      width: 979px;
+      height: 600px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #fff;
+   }
+
+   /*---------- Fim da Base ---------------------------*/
+
+
+
+
+
+
+  .container{
+    width: 100%;
+    height: auto;
+    background-color:#d50000;
+     box-sizing: border-box;
+     padding: 5px;
+}
+
+.container-a{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-color:#fff;
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+   .container-b{
+    width: 320px;
+    height: auto;
+    box-sizing: border-box;
+    background-color:#fff;
+    padding: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+}
+
+/*----- 767px ------*/
+
+@media only screen and (max-width : 767px) {
+
+   /*----------  Base ---------------------------*/
+
+   .lmi-linha-full{
+      width: 100%;
+      height: 3px;
+      background-color:#ff5722;
+
+   }
+
+   .lmi-header-full{
+      width: 100%;
+      height: 120px;
+      background-color: #ffab00;
+   }
+   .lmi-header-center{
+      width: 767px;
+      height: 120px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #374;
+   }
+
+   .lmi-container-body{
+      width: 100%;
+      height: auto;
+      background-color: #ffab00;
+   }
+
+   .lmi-container-body-center{
+      width: 767px;
+      height: 600px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #fff;
+   }
+
+   /*---------- Fim da Base ---------------------------*/
+
+
+
+
+  .container{
+    width: 100%;
+    height: auto;
+    background-color:#3f51b5;
+     box-sizing: border-box;
+     padding: 5px;
+}
+
+.container-a{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-color:#fff;
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+   .container-b{
+    width: 480px;
+    height: auto;
+    box-sizing: border-box;
+    background-color:#ffc107;
+    padding: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+   }
+
+     .container-c{
+    width: 400px;
+    height: auto;
+
+    box-sizing: border-box;
+    background-color:#fff;
+    padding: 60px;
+
+    display: block;
+     border-radius: 3px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+   }
+
+}
+
+/*---- 320px -----*/
+
+@media only screen and (max-width : 320px) {
+
+   /*----------  Base ---------------------------*/
+
+   .lmi-linha-full{
+      width: 100%;
+      height: 3px;
+      background-color:#ff5722;
+
+   }
+
+   .lmi-header-full{
+      width: 100%;
+      height: 120px;
+       background-color:#3f51b5;
+   }
+   .lmi-header-center{
+      width: 320px;
+      height: 120px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #374;
+   }
+
+   .lmi-container-body{
+      width: 100%;
+      height: auto;
+      background-color: #ffab00;
+   }
+
+   .lmi-container-body-center{
+      width: 320px;
+      height: 600px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #fff;
+   }
+
+   /*---------- Fim da Base ---------------------------*/
+
+
+
+  .container{
+    width: 100%;
+    height: auto;
+    background-color:#009688;
+     box-sizing: border-box;
+     padding: 5px;
+}
+
+.container-a{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-color:#fff;
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+   .container-b{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-color:#fff;
+    padding: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+    .container-c{
+    width: 100%;
+    height: auto;
+
+    box-sizing: border-box;
+    background-color:#fff;
+    padding: 30px;
+
+    display: block;
+    border-radius: 3px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+   }
+
+}
+
+/*========= MEDIA QUERY FIM ===========================================*/
