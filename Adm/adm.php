@@ -34,23 +34,17 @@
 
           </div>
           <div class="lmi-header-center-linha">
-
+             <p class="online">Online: 12</p>
           </div>
         </div>
       </div>
 
-
+  <div class="lmi-body-full">
       <div class="lmi-body">
-        <div class="lmi-body-container">
-<p>
-aabfsaegvvljnabnuyflihjojaaçlmslksssjskkcnkdnkvsdnkvnv,mc,cm,vkdksdnvksmkdnksndklvnsnvsnkvnkv
-aabfsaegvvljnabnuyflihjojaaçlmslksssjskkcnkdnkvsdnkvnv,mc,cm,vkdksdnvksmkdnksndklvnsnvsnkvnkv
-aabfsaegvvljnabnuyflihjojaaçlmslksssjskkcnkdnkvsdnkvnv,mc,cm,vkdksdnvksmkdnksndklvnsnvsnkvnkv
+        <?php include("Views/formulario.php"); ?>
 
-</p>
-        </div>
       </div>
-
+  </div>
 
 
 
