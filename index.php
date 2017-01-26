@@ -15,12 +15,41 @@
 
 <div class="box-full">
   <div class="box-center">
-           <a href="#"> <div class="box-menu">  <h4>Participar</h4> </div> </a>
+           <div class="box-menu"> Menu </div>
+           <a href="#">
+              <div class="box-participar"><br> Participar </div>
+          </a>
   </div>
 </div>
 
+<div class="box-full">
+  <div class="prop-herizontal">
+<p>ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</p>
+  </div>
+</div>
 
+<div class="box-full">
+  <div class="box-logo">
 
+  </div>
+</div>
+<div class="box-full">
+  <div class="prop-herizontal">
+<p>ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</p>
+  </div>
+</div>
+<div class="box-full">
+  <div class="box-seta">
+
+  </div>
+</div>
+<div class="box-full">
+  <div class="box-body">
+    <div class="container-a">
+
+    </div>
+  </div>
+</div>
 
   </body>
 </html>
