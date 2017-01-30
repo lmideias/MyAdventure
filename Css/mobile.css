@@ -17,13 +17,11 @@
 
 .box-full-linha{	width: 100%;	height: 3px;	display: block;	background-color:#e65100;	}
 .box-full{	width: 100%;	height: auto;	display: block;	}
-.box-center{ width: 100%;height: 100px;display: block;	margin-left: auto;	margin-right: auto;	}
+.box-center{ width: 1200px; height: auto; display: block;	margin-left: auto;	margin-right: auto; }
 
 /*------------------------------------------------------------*/
 
-.box-menu{ width: 50px;	height: 50px; margin-top: 5px;	display: block;	float: right; margin-right: 5px; border-radius: 5px; }
-.box-menu img{ width: 40px;	height: 40px;}
-.box-menu:hover img{ width: 50px;	height: 50px;}
+.box-menu{ display: none;}
 
 /*--- BOTAO PARTICIPAR -----*/
 .box-participar{width: 150px;	height: 35px; display: block;  margin-left: auto;	margin-right: auto; }
@@ -32,18 +30,19 @@
 a { text-decoration: none;}
 
 /*------------------------------------------------------------*/
-
-.prop-herizontal{width: 100%;	height: 30px;	display: block;}
+.height-header{ height: 550px;}
+.prop-herizontal{width: 100%;	height: 30px;	margin-top: 40px; display: block; background-color: pink;}
 
 /*--- LOGO E SETA -----*/
 .box-logo{width: 200px;height: 210px; display: block; margin-top: 60px; margin-bottom: 60px;	border-radius: 50px; margin-left: auto;	margin-right: auto;	}
 .box-logo img{ width: 200px;	height: 210px;}
-.box-seta{width: 60px;height: 30px; display: block; margin-top: 90px; 	margin-left: auto;	margin-right: auto;	background-color: #607d8b;}
+.box-seta{display: none;}
 
 /*---- BODY ------*/
-.box-body{width: 100%;height: 300px; padding: 10px;   box-sizing: border-box; display: block; margin-top: 10px; 	border-radius: 0px; margin-left: auto;	margin-right: auto;	}
+.box-body{width: 100%; height: 300px; padding: 10px;   box-sizing: border-box; display: block; margin-top: 10px; 	border-radius: 0px; margin-left: auto;	margin-right: auto;	}
 .container-a{width: 100%; height: 300px; display: block; background-color:#a5d6a7;}
 /*---- FIM DO BODY ------*/
+
 
 /*==========  Mobile First Method  ==========*/
 
@@ -174,16 +173,17 @@ a { text-decoration: none;}
 	a { text-decoration: none;}
 
 /*------------------------------------------------------------*/
-
+.height-header{ height: 600px; background-color: yellow;}
   .prop-herizontal{width: 100%;	height: 30px;	display: block;}
 
 /*--- LOGO E SETA -----*/
-  .box-logo{width: 200px;height: 210px; display: block; margin-top: 30px; margin-bottom: 60px;	border-radius: 60px; margin-left: auto;	margin-right: auto;	}
+  .box-logo{width: 200px;height: 210px; display: block; margin-top: 60px; margin-bottom: 60px;	border-radius: 60px; margin-left: auto;	margin-right: auto;	}
   .box-logo img{ width: 200px;	height: 210px;}
- .box-seta{width: 60px;height: 30px; display: block; margin-top: 90px; 	margin-left: auto;	margin-right: auto;	background-color: #607d8b;}
+	.box-seta{width: 60px;height: 30px; display: block; margin-top: 380px; 	margin-left: auto;	margin-right: auto;	background-color: #607d8b;}
+
 
 /*---- BODY ------*/
-.box-body{width: 100%;height: 300px; padding: 10px;   box-sizing: border-box; display: block; margin-top: 10px; 	border-radius: 0px; margin-left: auto;	margin-right: auto;	}
+.box-body{width: 100%;height: 300px; padding: 10px;   box-sizing: border-box; display: block; margin-top: 0px; 	border-radius: 0px; margin-left: auto;	margin-right: auto;	}
 .container-a{width: 100%; height: 300px; display: block; background-color:#a5d6a7;}
 /*---- FIM DO BODY ------*/
 }
@@ -195,31 +195,29 @@ a { text-decoration: none;}
 
 	.box-full-linha{	width: 100%;	height: 3px;	display: block;	background-color:#e65100;	}
 	.box-full{	width: 100%;	height: auto;	display: block;	}
-	.box-center{ width: 100%;height: 100px;display: block;	margin-left: auto;	margin-right: auto;	}
+	.box-center{ width: 100%; height: auto; display: block;	margin-left: auto;	margin-right: auto; }
 
 /*------------------------------------------------------------*/
 
-.box-menu{ width: 50px;	height: 50px; margin-top: 5px;	display: block;	float: right; margin-right: 5px; border-radius: 5px; }
-.box-menu img{ width: 40px;	height: 40px;}
-.box-menu:hover img{ width: 50px;	height: 50px;}
+.box-menu{ display: none;}
 
 /*--- BOTAO PARTICIPAR -----*/
-	.box-participar{width: 150px;	height: 35px; display: block;  margin-left: auto;	margin-right: auto; }
-	.box-participar{	color: #33691e;		text-align: center;		font-size: 16px; font-family: 'Love Ya Like A Sister', cursive;}
+  .box-participar{width: 150px;	height: 35px; display: block;  margin-left: auto;	margin-right: auto; }
+  .box-participar{	color: #33691e;		text-align: center;		font-size: 16px; font-family: 'Love Ya Like A Sister', cursive;}
 	.box-participar:hover{ color: #e65100; border-bottom: 2px solid #e65100;}
 	a { text-decoration: none;}
 
 /*------------------------------------------------------------*/
-
-	.prop-herizontal{width: 100%;	height: 30px;	display: block;}
+  .height-header{ height: 550px;}
+  .prop-herizontal{width: 100%;	height: 30px;	margin-top: 40px; display: block; background-color: pink;}
 
 /*--- LOGO E SETA -----*/
-	.box-logo{width: 200px;height: 210px; display: block; margin-top: 60px; margin-bottom: 60px;	border-radius: 50px; margin-left: auto;	margin-right: auto;	}
-  .box-logo img{ width: 200px;	height: 210px;}
- .box-seta{width: 60px;height: 30px; display: block; margin-top: 90px; 	margin-left: auto;	margin-right: auto;	background-color: #607d8b;}
+.box-logo{width: 200px;height: 210px; display: block; margin-top: 60px; margin-bottom: 60px;	border-radius: 50px; margin-left: auto;	margin-right: auto;	}
+.box-logo img{ width: 200px;	height: 210px;}
+ .box-seta{display: none;}
 
 /*---- BODY ------*/
-.box-body{width: 100%;height: 300px; padding: 10px;   box-sizing: border-box; display: block; margin-top: 10px; 	border-radius: 0px; margin-left: auto;	margin-right: auto;	}
+.box-body{width: 100%; height: 300px; padding: 10px;   box-sizing: border-box; display: block; margin-top: 10px; 	border-radius: 0px; margin-left: auto;	margin-right: auto;	}
 .container-a{width: 100%; height: 300px; display: block; background-color:#a5d6a7;}
 /*---- FIM DO BODY ------*/
 
@@ -231,13 +229,11 @@ a { text-decoration: none;}
 
 	.box-full-linha{	width: 100%;	height: 3px;	display: block;	background-color:#e65100;	}
 	.box-full{	width: 100%;	height: auto;	display: block;	}
-	.box-center{ width: 100%;height: 100px;display: block;	margin-left: auto;	margin-right: auto;	}
+	.box-center{ width: 1200px; height: auto; display: block;	margin-left: auto;	margin-right: auto; }
 
 /*------------------------------------------------------------*/
 
-.box-menu{ width: 50px;	height: 50px; margin-top: 5px;	display: block;	float: right; margin-right: 5px; border-radius: 5px; }
-.box-menu img{ width: 40px;	height: 40px;}
-.box-menu:hover img{ width: 50px;	height: 50px;}
+.box-menu{ display: none;}
 
 /*--- BOTAO PARTICIPAR -----*/
   .box-participar{width: 150px;	height: 35px; display: block;  margin-left: auto;	margin-right: auto; }
@@ -246,16 +242,16 @@ a { text-decoration: none;}
 	a { text-decoration: none;}
 
 /*------------------------------------------------------------*/
-
-  .prop-herizontal{width: 100%;	height: 30px;	display: block;}
+  .height-header{ height: 550px;}
+  .prop-herizontal{width: 100%;	height: 30px;	margin-top: 40px; display: block; background-color: pink;}
 
 /*--- LOGO E SETA -----*/
 .box-logo{width: 200px;height: 210px; display: block; margin-top: 60px; margin-bottom: 60px;	border-radius: 50px; margin-left: auto;	margin-right: auto;	}
 .box-logo img{ width: 200px;	height: 210px;}
- .box-seta{width: 60px;height: 30px; display: block; margin-top: 90px; 	margin-left: auto;	margin-right: auto;	background-color: #607d8b;}
+ .box-seta{display: none;}
 
 /*---- BODY ------*/
-.box-body{width: 100%;height: 300px; padding: 10px;   box-sizing: border-box; display: block; margin-top: 10px; 	border-radius: 0px; margin-left: auto;	margin-right: auto;	}
+.box-body{width: 100%; height: 300px; padding: 10px;   box-sizing: border-box; display: block; margin-top: 10px; 	border-radius: 0px; margin-left: auto;	margin-right: auto;	}
 .container-a{width: 100%; height: 300px; display: block; background-color:#a5d6a7;}
 /*---- FIM DO BODY ------*/
 

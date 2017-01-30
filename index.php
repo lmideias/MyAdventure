@@ -22,33 +22,32 @@
   </div>
 </div>
 
-<div class="box-full">
-  <div class="prop-herizontal">
-<p>ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</p>
-  </div>
-</div>
 
-<div class="box-full">
+<div class="box-full height-header">
+  <div class="prop-herizontal">
+         <p>ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</p>
+  </div>
+
+  <div class="box-center">
   <div class="box-logo">
           <img src="Imagens/advlogo.png" alt="">
   </div>
-</div>
-<div class="box-full">
-  <div class="prop-herizontal">
-<p>ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</p>
-  </div>
-</div>
-<div class="box-full">
-  <div class="box-seta">
 
   </div>
+
+  <div class="box-seta">  </div>
+
 </div>
+
+
 <div class="box-full">
+  <div class="box-center">
   <div class="box-body">
     <div class="container-a">
 
     </div>
   </div>
+</div>
 </div>
 
   </body>
