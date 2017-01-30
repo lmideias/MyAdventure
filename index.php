@@ -15,7 +15,7 @@
 
 <div class="box-full">
   <div class="box-center">
-           <div class="box-menu"> Menu </div>
+           <div class="box-menu">  <img src="Imagens/menu2.png" alt=""> </div>
            <a href="#">
               <div class="box-participar"><br> Participar </div>
           </a>
@@ -30,7 +30,7 @@
 
 <div class="box-full">
   <div class="box-logo">
-
+          <img src="Imagens/advlogo.png" alt="">
   </div>
 </div>
 <div class="box-full">
