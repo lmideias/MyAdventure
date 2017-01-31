@@ -10,44 +10,30 @@
    <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
   </head>
   <body class="lmi-body-bg">
-    <div class="box-full-linha"> </div>
 
-
-<div class="box-full">
-  <div class="box-center">
-           <div class="box-menu">  <img src="Imagens/menu2.png" alt=""> </div>
-           <a href="#">
-              <div class="box-participar"><br> Participar </div>
-          </a>
-  </div>
-</div>
-
-
-<div class="box-full height-header">
-  <div class="prop-herizontal">
-         <p>ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</p>
-  </div>
-
-  <div class="box-center">
-  <div class="box-logo">
-          <img src="Imagens/advlogo.png" alt="">
-  </div>
-
-  </div>
-
-  <div class="box-seta">  </div>
-
-</div>
-
+<div class="box-full-linha bc1"> </div>
 
 <div class="box-full">
-  <div class="box-center">
-  <div class="box-body">
-    <div class="container-a">
+     <div class="box-center altura07 bc3">
+       <div class="box-center-menu bc1">
+
+      </div>
+
+
+
+
 
     </div>
-  </div>
 </div>
+<div class="box-full">
+     <div class="box-center altura07 bc2">
+
+    </div>
+</div>
+<div class="box-full">
+     <div class="box-center altura01 bc3">
+
+    </div>
 </div>
 
   </body>
