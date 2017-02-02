@@ -19,15 +19,25 @@
 /*------- BOX BASE ---------------------------------------------------------------------------------*/
 
 .box-full-linha{	width: 100%;	height: 3px;	display: block;	}
+
+/*------------------------------------------------------------------------------------------------*/
+
 .box-full{	width: 100%;	height: auto;	display: block;	}
 .box-center{ width: 1200px; height: auto; display: block;	margin-left: auto;	margin-right: auto; }
 
 
 /*------------ OUTROS ---------------------------------------------------------------------*/
 
+    .box-participar{		display: none; }
+	.box-center-menu{	width: 1024px;	height: 70px;	 display: block; margin-left: auto;	margin-right: auto; box-sizing: border-box; }
+	.mbox{width: 185px;	height: 60px;	display: block; box-sizing: border-box; float: left; padding: 5px; margin-left: 15px;  }
 
-.box-center-menu{	width: 100%;	height: 70px;	display: block;}
+	.mbox{	color: #33691e;		text-align: center;		font-size: 16px; font-family: 'Love Ya Like A Sister', cursive;}
+	.mbox:hover{ color: #e65100; border-bottom: 2px solid #e65100;}
+	a { text-decoration: none;}
 
+
+	/*------------------------------------------------------------*/
 
 
 /*------------ CONFIGURAÇÕES ---------------------------------------------------------------------*/
@@ -50,11 +60,6 @@
 
 .box-menu{ display: none;}
 
-/*--- BOTAO PARTICIPAR -----*/
-.box-participar{width: 150px;	height: 35px; display: block;  margin-left: auto;	margin-right: auto; }
-.box-participar{	color: #33691e;		text-align: center;		font-size: 16px; font-family: 'Love Ya Like A Sister', cursive;}
-.box-participar:hover{ color: #e65100; border-bottom: 2px solid #e65100;}
-a { text-decoration: none;}
 
 /*------------------------------------------------------------*/
 .height-header{ height: 550px; background-color: red;}
@@ -105,12 +110,63 @@ a { text-decoration: none;}
 @media only screen and (min-width : 800px) and (max-width : 1024px) {
 
 
+	/*------- BOX BASE ---------------------------------------------------------------------------------*/
+
+	.box-full-linha{	width: 100%;	height: 3px;	display: block;	}
+
+	/*------------------------------------------------------------------------------------------------*/
+
+	.box-full{	width: 100%;	height: auto;	display: block;	}
+	.box-center{ width: 100%; height: auto; display: block;	margin-left: auto;	margin-right: auto; }
+
+
+	/*------------ OUTROS ---------------------------------------------------------------------*/
+
+
+	.box-center-menu {		display: none; }
+
+
+		.box-menu{ width: 50px;	height: 50px; margin-top: 5px;	display: block;	float: right; margin-right: 5px; border-radius: 5px; }
+	  .box-menu img{ width: 40px;	height: 40px;}
+		.box-menu:hover img{ width: 50px;	height: 50px;}
+
+	/*--- BOTAO PARTICIPAR -----*/
+
+	  .box-participar{width: 150px;	height: 40px; display: block;  margin-left: auto;	margin-right: auto; }
+	  .box-participar{	color: #33691e;		text-align: center;		font-size: 16px; font-family: 'Love Ya Like A Sister', cursive;}
+		.box-participar:hover{ color: #e65100; border-bottom: 2px solid #e65100;}
+		a { text-decoration: none;}
+
+	/*------------------------------------------------------------*/
 
 }
 
 /*--- Tablet landscape --- */
 @media only screen and (min-width : 1024px) and (max-width : 1200px) {
 
+	/*------- BOX BASE ---------------------------------------------------------------------------------*/
+
+	.box-full-linha{	width: 100%;	height: 3px;	display: block;	}
+
+	/*------------------------------------------------------------------------------------------------*/
+
+	.box-full{	width: 100%;	height: auto;	display: block;	}
+	.box-center{ width: 1200px; height: auto; display: block;	margin-left: auto;	margin-right: auto; }
+
+
+	/*------------ OUTROS ---------------------------------------------------------------------*/
+
+
+	.box-center-menu{	width: 1024px;	height: 70px;	 display: block; margin-left: auto;	margin-right: auto; box-sizing: border-box; }
+
+  .box-participar{		display: none; }
+
+		.mbox{width: 185px;	height: 60px;	display: block; box-sizing: border-box; float: left; padding: 5px; margin-left: 15px;  }
+
+		.mbox{	color: #33691e;		text-align: center;		font-size: 16px; font-family: 'Love Ya Like A Sister', cursive;}
+		.mbox:hover{ color: #e65100; border-bottom: 2px solid #e65100;}
+		a { text-decoration: none;}
+		/*------------------------------------------------------------*/
 
 }
 

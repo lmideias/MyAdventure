@@ -15,11 +15,29 @@
 
 <div class="box-full">
      <div class="box-center altura07 bc3">
-       <div class="box-center-menu bc1">
 
+       <div class="box-center-menu ">
+         <a href="#">
+            <div class="mbox"><br> Participar </div>
+        </a>
+        <a href="#">
+           <div class="mbox"><br> Participar </div>
+       </a>
+       <a href="#">
+          <div class="mbox"><br> Participar </div>
+      </a>
+      <a href="#">
+         <div class="mbox"><br> Participar </div>
+     </a>
+     <a href="#">
+        <div class="mbox"><br> Participar </div>
+    </a>
       </div>
 
-
+      <div class="box-menu">  <img src="Imagens/menu2.png" alt=""> </div>
+      <a href="#">
+         <div class="box-participar"><br> Participar </div>
+      </a>
 
 
 
