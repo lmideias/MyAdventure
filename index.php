@@ -13,9 +13,9 @@
 
 <div class="box-full-linha bc1"> </div>
 
-<div class="box-full">
-     <div class="box-center altura07 bc3">
-
+<div class="box-full bc5">
+     <div class="box-center altura07">
+<!--.......................-->
        <div class="box-center-menu ">
          <a href="#">
             <div class="mbox"><br> Participar </div>
@@ -33,16 +33,59 @@
         <div class="mbox"><br> Participar </div>
     </a>
       </div>
+<!--.......................-->
 
       <div class="box-menu">  <img src="Imagens/menu2.png" alt=""> </div>
+<!--.......................-->
       <a href="#">
          <div class="box-participar"><br> Participar </div>
       </a>
+
+<!--..............................................................-->
+
+
+
+
+
+
+
+<div class="box-header-left">
+
+</div>
+
+<div class="box-header-center">
+  <div class="box-logo">
+          <img src="Imagens/advlogo.png" alt="">
+  </div>
+</div>
+<div class="box-header-right">
+
+</div>
 
 
 
     </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div class="box-full">
      <div class="box-center altura07 bc2">
 

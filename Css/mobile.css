@@ -28,14 +28,37 @@
 
 /*------------ OUTROS ---------------------------------------------------------------------*/
 
-    .box-participar{		display: none; }
-	.box-center-menu{	width: 1024px;	height: 70px;	 display: block; margin-left: auto;	margin-right: auto; box-sizing: border-box; }
-	.mbox{width: 185px;	height: 60px;	display: block; box-sizing: border-box; float: left; padding: 5px; margin-left: 15px;  }
+/*------- BOX BASE ---------------------------------------------------------------------------------*/
 
+.box-full-linha{	width: 100%;	height: 3px;	display: block;	}
+
+/*------------------------------------------------------------------------------------------------*/
+
+.box-full{	width: 100%;	height: auto;	display: block;	}
+.box-center{ width: 1200px; height: auto; display: block;	margin-left: auto;	margin-right: auto; }
+
+
+/*------------ OUTROS ---------------------------------------------------------------------*/
+
+.box-center-menu{	width: 1024px;	height: 70px;	 display: block; margin-left: auto;	margin-right: auto;}
+.box-participar{		display: none; }
+
+	/*--- MENU BOTOES HORIZONTAL HEADER -------*/
+	.mbox{width: 185px;	height: 60px;	display: block; box-sizing: border-box; float: left; padding: 5px; margin-left: 15px;  }
 	.mbox{	color: #33691e;		text-align: center;		font-size: 16px; font-family: 'Love Ya Like A Sister', cursive;}
 	.mbox:hover{ color: #e65100; border-bottom: 2px solid #e65100;}
 	a { text-decoration: none;}
 
+	/*----- BOX-HEADER  LEFT, CENTER RIGHT -------------------------------------------------------*/
+
+	.box-header-left{   width: 30%; height: 620px; display: block; float: left; margin-left: 15px; background-color: red;}
+	.box-header-center{ width:34%; height: 620px; display: block; float: left; margin-left: 15px; background-color: red;}
+	.box-header-right{  width: 30%; height: 620px; display: block; float: left; margin-left: 15px; background-color: red;}
+
+/*--- LOGO E SETA -----*/
+
+.box-logo{width: 200px;height: 210px; display: block; margin-top: 200px; border-radius: 50px; margin-left: auto;	margin-right: auto;	}
+.box-logo img{ width: 200px;	height: 210px; }
 
 	/*------------------------------------------------------------*/
 
@@ -52,7 +75,7 @@
 .bc2{background-color: #ef6c00;}
 .bc3{background-color: #a5d6a7;}
 .bc4{background-color: #78909c;}
-
+.bc5{background-color: #fff;}
 
 
 /*-----------------------------------------------------------------------------------------------*/
@@ -65,9 +88,7 @@
 .height-header{ height: 550px; background-color: red;}
 .prop-herizontal{width: 100%;	height: 30px;	margin-top: 40px; display: block; background-color: pink;}
 
-/*--- LOGO E SETA -----*/
-.box-logo{width: 200px;height: 210px; display: block; margin-top: 60px; margin-bottom: 60px;	border-radius: 50px; margin-left: auto;	margin-right: auto;	}
-.box-logo img{ width: 200px;	height: 210px;}
+
 .box-seta{display: none;}
 
 /*---- BODY ------*/
@@ -84,6 +105,49 @@
 /*--- Mobile portrait ---*/
 @media only screen and (min-width : 320px) and (max-width : 480px) {
 
+		/*------- BOX BASE ---------------------------------------------------------------------------------*/
+
+		.box-full-linha{	width: 100%;	height: 3px;	display: block;	}
+
+		/*------------------------------------------------------------------------------------------------*/
+
+		.box-full{	width: 100%;	height: auto;	display: block;	}
+		.box-center{ width: 100%; height: auto; display: block;	margin-left: auto;	margin-right: auto; }
+
+
+		/*------------ OUTROS ---------------------------------------------------------------------*/
+
+
+		.box-center-menu {		display: none; }
+
+/*---- COLOR -----*/
+     .bc5{background-color: #fff;}
+
+			.box-menu{ width: 50px;	height: 50px; margin-top: 5px;	display: block;	float: right; margin-right: 5px; border-radius: 5px; }
+		  .box-menu img{ width: 40px;	height: 40px;}
+			.box-menu:hover img{ width: 50px;	height: 50px;}
+
+		/*--- BOTAO PARTICIPAR -----*/
+
+		  .box-participar{width: 150px;	height: 60px; display: block;  margin-left: auto;	margin-right: auto; }
+		  .box-participar{	color: #33691e;		text-align: center;		font-size: 16px; font-family: 'Love Ya Like A Sister', cursive;}
+			.box-participar:hover{ color: #e65100; border-bottom: 2px solid #e65100;}
+			a { text-decoration: none;}
+
+		/*------------------------------------------------------------*/
+
+		/*----- BOX-HEADER  LEFT, CENTER RIGHT -------------------------------------------------------*/
+		.box-header-left{   width: 22%; height: 620px; display: block; float: left; margin-left: 5px; }
+		.box-header-center{ width: 50%; height: 620px; display: block; float: left; margin-left: 5px; }
+		.box-header-right{  width: 22%; height: 620px; display: block; float: left; margin-left: 5px; }
+
+	/*--- LOGO E SETA -----*/
+
+	.box-logo{width: 110px;height: 120px; display: block; margin-top: 100px; border-radius: 50px; margin-left: auto;	margin-right: auto;	}
+	.box-logo img{ width: 110px;	height: 120px; }
+
+		/*------------------------------------------------------------*/
+
 
 }
 
@@ -91,15 +155,142 @@
 /*--- Mobile landscape ---*/
 @media only screen and (min-width : 480px) and (max-width : 595px) {
 
+	/*------- BOX BASE ---------------------------------------------------------------------------------*/
+
+	.box-full-linha{	width: 100%;	height: 3px;	display: block;	}
+
+	/*------------------------------------------------------------------------------------------------*/
+
+	.box-full{	width: 100%;	height: auto;	display: block;	}
+	.box-center{ width: 100%; height: auto; display: block;	margin-left: auto;	margin-right: auto; }
+
+
+	/*------------ OUTROS ---------------------------------------------------------------------*/
+
+
+	.box-center-menu {		display: none; }
+
+/*---- COLOR -----*/
+	 .bc5{background-color: #fff;}
+
+		.box-menu{ width: 50px;	height: 50px; margin-top: 5px;	display: block;	float: right; margin-right: 5px; border-radius: 5px; }
+		.box-menu img{ width: 40px;	height: 40px;}
+		.box-menu:hover img{ width: 50px;	height: 50px;}
+
+	/*--- BOTAO PARTICIPAR -----*/
+
+		.box-participar{width: 150px;	height: 60px; display: block;  margin-left: auto;	margin-right: auto; }
+		.box-participar{	color: #33691e;		text-align: center;		font-size: 16px; font-family: 'Love Ya Like A Sister', cursive;}
+		.box-participar:hover{ color: #e65100; border-bottom: 2px solid #e65100;}
+		a { text-decoration: none;}
+
+	/*------------------------------------------------------------*/
+
+	/*----- BOX-HEADER  LEFT, CENTER RIGHT -------------------------------------------------------*/
+	.box-header-left{   width: 22%; height: 620px; display: block; float: left; margin-left: 5px; }
+	.box-header-center{ width: 51%; height: 620px; display: block; float: left; margin-left: 5px; }
+	.box-header-right{  width: 22%; height: 620px; display: block; float: left; margin-left: 5px; }
+
+/*--- LOGO E SETA -----*/
+
+.box-logo{width: 110px;height: 120px; display: block; margin-top: 100px; border-radius: 50px; margin-left: auto;	margin-right: auto;	}
+.box-logo img{ width: 110px;	height: 120px; }
+
+	/*------------------------------------------------------------*/
+
 }
 
 /*--- Small tablet portrait ---*/
 @media only screen and (min-width : 595px) and (max-width : 690px) {
 
+		/*------- BOX BASE ---------------------------------------------------------------------------------*/
+
+		.box-full-linha{	width: 100%;	height: 3px;	display: block;	}
+
+		/*------------------------------------------------------------------------------------------------*/
+
+		.box-full{	width: 100%;	height: auto;	display: block;	}
+		.box-center{ width: 100%; height: auto; display: block;	margin-left: auto;	margin-right: auto; }
+
+
+		/*------------ OUTROS ---------------------------------------------------------------------*/
+
+
+		.box-center-menu {		display: none; }
+		/*---- COLOR -----*/
+		     .bc5{background-color: #fff;}
+
+			.box-menu{ width: 50px;	height: 50px; margin-top: 5px;	display: block;	float: right; margin-right: 5px; border-radius: 5px; }
+		  .box-menu img{ width: 40px;	height: 40px;}
+			.box-menu:hover img{ width: 50px;	height: 50px;}
+
+		/*--- BOTAO PARTICIPAR -----*/
+
+		  .box-participar{width: 150px;	height: 60px; display: block;  margin-left: auto;	margin-right: auto; }
+		  .box-participar{	color: #33691e;		text-align: center;		font-size: 16px; font-family: 'Love Ya Like A Sister', cursive;}
+			.box-participar:hover{ color: #e65100; border-bottom: 2px solid #e65100;}
+			a { text-decoration: none;}
+
+		/*------------------------------------------------------------*/
+
+		/*----- BOX-HEADER  LEFT, CENTER RIGHT -------------------------------------------------------*/
+		.box-header-left{   width: 30%; height: 620px; display: block; float: left; margin-left: 15px; }
+		.box-header-center{ width: 31%; height: 620px; display: block; float: left; margin-left: 15px;}
+		.box-header-right{  width: 30%; height: 620px; display: block; float: left; margin-left: 15px; }
+
+	/*--- LOGO E SETA -----*/
+
+	.box-logo{width: 140px;height: 150px; display: block; margin-top: 100px; border-radius: 50px; margin-left: auto;	margin-right: auto;	}
+	.box-logo img{ width: 140px;	height: 150px; }
+
+		/*------------------------------------------------------------*/
+
 }
 
 /*--- Tablet portrait ---*/
 @media only screen and (min-width : 690px) and (max-width : 800px) {
+
+		/*------- BOX BASE ---------------------------------------------------------------------------------*/
+
+		.box-full-linha{	width: 100%;	height: 3px;	display: block;	}
+
+		/*------------------------------------------------------------------------------------------------*/
+
+		.box-full{	width: 100%;	height: auto;	display: block;	}
+		.box-center{ width: 100%; height: auto; display: block;	margin-left: auto;	margin-right: auto; }
+
+
+		/*------------ OUTROS ---------------------------------------------------------------------*/
+
+		/*---- COLOR -----*/
+		     .bc5{background-color: #fff;}
+		.box-center-menu {		display: none; }
+
+
+			.box-menu{ width: 50px;	height: 50px; margin-top: 5px;	display: block;	float: right; margin-right: 5px; border-radius: 5px; }
+		  .box-menu img{ width: 40px;	height: 40px;}
+			.box-menu:hover img{ width: 50px;	height: 50px;}
+
+		/*--- BOTAO PARTICIPAR -----*/
+
+		  .box-participar{width: 150px;	height: 60px; display: block;  margin-left: auto;	margin-right: auto; }
+		  .box-participar{	color: #33691e;		text-align: center;		font-size: 16px; font-family: 'Love Ya Like A Sister', cursive;}
+			.box-participar:hover{ color: #e65100; border-bottom: 2px solid #e65100;}
+			a { text-decoration: none;}
+
+		/*------------------------------------------------------------*/
+
+		/*----- BOX-HEADER  LEFT, CENTER RIGHT -------------------------------------------------------*/
+		.box-header-left{   width: 30%; height: 620px; display: block; float: left; margin-left: 15px; background-color: red;}
+		.box-header-center{ width: 32%; height: 620px; display: block; float: left; margin-left: 15px; background-color: red;}
+		.box-header-right{  width: 30%; height: 620px; display: block; float: left; margin-left: 15px; background-color: red;}
+
+	/*--- LOGO E SETA -----*/
+
+	.box-logo{width: 180px;height: 190px; display: block; margin-top: 200px; border-radius: 50px; margin-left: auto;	margin-right: auto;	}
+	.box-logo img{ width: 180px;	height: 190px; }
+
+		/*------------------------------------------------------------*/
 
 
 }
@@ -122,7 +313,8 @@
 
 	/*------------ OUTROS ---------------------------------------------------------------------*/
 
-
+	/*---- COLOR -----*/
+	     .bc5{background-color: #fff;}
 	.box-center-menu {		display: none; }
 
 
@@ -132,10 +324,22 @@
 
 	/*--- BOTAO PARTICIPAR -----*/
 
-	  .box-participar{width: 150px;	height: 40px; display: block;  margin-left: auto;	margin-right: auto; }
+	  .box-participar{width: 150px;	height: 60px; display: block;  margin-left: auto;	margin-right: auto; }
 	  .box-participar{	color: #33691e;		text-align: center;		font-size: 16px; font-family: 'Love Ya Like A Sister', cursive;}
 		.box-participar:hover{ color: #e65100; border-bottom: 2px solid #e65100;}
 		a { text-decoration: none;}
+
+	/*------------------------------------------------------------*/
+
+	/*----- BOX-HEADER  LEFT, CENTER RIGHT -------------------------------------------------------*/
+	.box-header-left{   width: 30%; height: 620px; display: block; float: left; margin-left: 15px; background-color: red;}
+	.box-header-center{ width: 34%; height: 620px; display: block; float: left; margin-left: 15px; background-color: red;}
+	.box-header-right{  width: 30%; height: 620px; display: block; float: left; margin-left: 15px; background-color: red;}
+
+/*--- LOGO E SETA -----*/
+
+.box-logo{width: 200px;height: 210px; display: block; margin-top: 200px; border-radius: 50px; margin-left: auto;	margin-right: auto;	}
+.box-logo img{ width: 200px;	height: 210px; }
 
 	/*------------------------------------------------------------*/
 
@@ -156,16 +360,31 @@
 
 	/*------------ OUTROS ---------------------------------------------------------------------*/
 
-
-	.box-center-menu{	width: 1024px;	height: 70px;	 display: block; margin-left: auto;	margin-right: auto; box-sizing: border-box; }
+	.box-center-menu{	width: 1024px;	height: 70px;	 display: block; margin-left: -10px;}
 
   .box-participar{		display: none; }
 
-		.mbox{width: 185px;	height: 60px;	display: block; box-sizing: border-box; float: left; padding: 5px; margin-left: 15px;  }
+	/*---- COLOR -----*/
+	     .bc5{background-color: #fff;}
 
+    /*--- MENU BOTOES HORIZONTAL HEADER -------*/
+		.mbox{width: 185px;	height: 60px;	display: block; box-sizing: border-box; float: left; padding: 5px; margin-left: 15px;  }
 		.mbox{	color: #33691e;		text-align: center;		font-size: 16px; font-family: 'Love Ya Like A Sister', cursive;}
 		.mbox:hover{ color: #e65100; border-bottom: 2px solid #e65100;}
 		a { text-decoration: none;}
+		/*------------------------------------------------------------*/
+
+		/*----- BOX-HEADER  LEFT, CENTER RIGHT -------------------------------------------------------*/
+
+	.box-header-left{   width: 30%; height: 620px; display: block; float: left; margin-left: 15px; background-color: red;}
+	.box-header-center{ width:34%; height: 620px; display: block; float: left; margin-left: 15px; background-color: red;}
+	.box-header-right{  width: 30%; height: 620px; display: block; float: left; margin-left: 15px; background-color: red;}
+
+	/*--- LOGO E SETA -----*/
+
+	.box-logo{width: 200px;height: 210px; display: block; margin-top: 200px; border-radius: 50px; margin-left: auto;	margin-right: auto;	}
+	.box-logo img{ width: 200px;	height: 210px; }
+
 		/*------------------------------------------------------------*/
 
 }
